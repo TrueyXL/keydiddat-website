@@ -160,6 +160,9 @@ footer{position:relative;z-index:2}
 .fact b i{font-style:italic}
 .fact span{font-size:13px;color:var(--muted)}
 section{padding-block:clamp(76px,10vw,132px)}
+/* light sections that follow another light section: one gap, not two */
+#apropos,#politiques,#visite{padding-top:0}
+#reseaux{padding-block:clamp(60px,7vw,96px)}
 .head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:56px}
 h2{font:400 clamp(40px,5.6vw,76px)/.98 var(--display);font-variation-settings:"opsz" 144;margin:16px 0 0;text-wrap:balance;letter-spacing:-.02em}
 h2 em{font-style:italic;color:var(--accent-text)}
@@ -362,7 +365,7 @@ details.law p{margin:10px 0 0}
 .rb-ic{width:18px;height:18px;color:var(--ink)}
 .reel figcaption a{text-decoration:none;font-weight:600;color:var(--accent-text)}
 .reel figcaption a:hover{text-decoration:underline;text-underline-offset:4px}
-.soc-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:clamp(70px,8vw,100px);padding-top:28px;border-top:1px solid var(--line)}
+.soc-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:clamp(36px,4vw,52px);padding-top:24px;border-top:1px solid var(--line)}
 .soc-lab{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-right:8px}
 .sl{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:999px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font:500 14px var(--body);transition:transform .3s var(--ease),border-color .3s}
 .sl:hover{transform:translateY(-2px);border-color:var(--accent)}
