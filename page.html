@@ -1,0 +1,1180 @@
+<!doctype html>
+<html lang="en" data-vibe="emeraude" data-whatsapp="">
+<!-- WhatsApp: put Key's number (10 digits) in data-whatsapp above. Every WhatsApp button uses it; while empty they hide and Instagram shows instead. -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Security: build.py fills the policy below with a hash of each inline script, so only this page's own code and the pinned CDN files can run. -->
+<meta http-equiv="Content-Security-Policy" content="{{CSP}}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="canonical" href="https://keydiddat.ca/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keydiddat.ca/">
+<meta property="og:title" content="Key Did Dat · Loctician">
+<meta property="og:description" content="Retwists, interlocks, starter locs, detox and styles. LaSalle, Montréal. Book online.">
+<meta property="og:image" content="https://keydiddat.ca/assets/hero.jpg">
+<title>Key Did Dat · Loctician</title>
+<meta name="description" content="Key Did Dat: retwists, interlocks, starter locs, detox and styles by your favourite loctician. 2480 rue Lapierre, LaSalle, Montréal. Book online.">
+<meta name="theme-color" content="#0d2620">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d2620'/%3E%3Ctext x='32' y='45' font-family='Georgia' font-style='italic' font-size='38' text-anchor='middle' fill='%23d6b36a'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+/* Key Did Dat: a loctician's studio in LaSalle. Emerald + gold (her survey, her green tile wall),
+   the brush-script logo in 3D gold at the gate, arch-framed photos, and a signature "count your locs"
+   price builder that draws the parts on a scalp, grid by grid, from her real booking prices. */
+:root{
+  --display:"Fraunces",Georgia,serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.2,.7,.1,1);
+  /* Emeraude (default): the survey's emerald, gold and beige */
+  --bg:#f4ecdc; --surface:#fbf6ec; --ink:#10241d; --muted:#5e6b62; --line:#e2d6bf;
+  --accent:#d6b36a; --accent-ink:#102219; --accent-text:#8a6a22;
+  --hero:#0d2620; --hero-2:#13332a; --hero-ink:#f3ead8; --hero-muted:#b8b39c; --tile:#1a4a3a;
+  --skin:#6b452f; --hair:#17110d;
+}
+:root[data-vibe="moka"]{
+  --bg:#f3ebe2; --surface:#fbf7f1; --ink:#22160f; --muted:#6f5f53; --line:#e3d4c4;
+  --accent:#d3a467; --accent-ink:#1e1209; --accent-text:#8c5f26;
+  --hero:#1e1410; --hero-2:#2a1c16; --hero-ink:#f6ece2; --hero-muted:#b9a693; --tile:#3a2a20;
+  --skin:#71482f; --hair:#120c09;
+}
+:root[data-vibe="nuit"]{
+  --bg:#efeae1; --surface:#f9f6f0; --ink:#121210; --muted:#5f5d57; --line:#dcd6ca;
+  --accent:#e2bf6e; --accent-ink:#141006; --accent-text:#866417;
+  --hero:#0b0b0a; --hero-2:#161614; --hero-ink:#f4efe4; --hero-muted:#a7a194; --tile:#1d1d1a;
+  --skin:#6b452f; --hair:#141210;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--body);transition:background-color .6s var(--ease),color .6s var(--ease)}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1220px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+.tag{font:500 11px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:inline-flex;gap:10px;align-items:center}
+.tag::before{content:"";width:18px;height:1px;background:var(--accent)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:600 15px/1 var(--body);text-decoration:none;border-radius:999px;padding:17px 26px;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease),background-color .3s,color .3s,border-color .3s,box-shadow .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn-accent{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 82%,#fff) 0%,var(--accent) 55%,color-mix(in srgb,var(--accent) 80%,#000) 100%);color:var(--accent-ink);box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}
+.btn-accent:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 12px 34px color-mix(in srgb,var(--accent) 45%,transparent)}
+.btn-line{border-color:color-mix(in srgb,var(--hero-ink) 35%,transparent);color:var(--hero-ink);background:transparent}
+.btn-line:hover{border-color:var(--hero-ink)}
+.btn-ink{background:var(--ink);color:var(--bg)}
+.btn .arr{transition:transform .3s var(--ease)}
+.btn:hover .arr{transform:translateX(4px)}
+.ic{width:18px;height:18px;flex:none}
+
+/* ---------- Entry gate ---------- */
+.gate{position:fixed;inset:0;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:24px;text-align:center;color:var(--hero-ink);
+  background:color-mix(in srgb,var(--hero) 80%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:opacity .9s var(--ease),visibility 0s linear .9s}
+html:not(.js) .gate{display:none}
+.gate.closed{opacity:0;visibility:hidden}
+.gate::before{content:"";position:absolute;left:50%;top:40%;width:min(96vw,900px);aspect-ratio:2/1;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,color-mix(in srgb,var(--accent) 22%,transparent),transparent);pointer-events:none}
+.logo3d{position:relative;width:min(84vw,560px);aspect-ratio:2031/450;cursor:grab;touch-action:none}
+.logo3d:active{cursor:grabbing}
+.logo3d svg.flat{position:absolute;inset:0;width:100%;height:100%;color:var(--accent);transition:opacity .6s}
+.logo3d canvas{position:absolute;left:-20%;top:-90%;width:140%;height:280%;opacity:0;transition:opacity 1s var(--ease);pointer-events:none}
+.logo3d.webgl canvas{opacity:1}
+.logo3d.webgl svg.flat{opacity:0}
+.gate .logo3d{animation:logoIn 1.6s var(--ease) both}
+@keyframes logoIn{from{opacity:0;transform:translateY(26px) scale(.92);filter:blur(10px)}to{opacity:1;transform:none;filter:none}}
+.gate-sub{font:400 italic clamp(18px,2.4vw,24px)/1.2 var(--display);color:var(--hero-ink);margin:6px 0 0}
+.gate-sub small{display:block;font:500 11px/1 var(--mono);font-style:normal;letter-spacing:.3em;text-transform:uppercase;color:var(--hero-muted);margin-top:12px}
+.gate-q{font:500 12px/1.4 var(--mono);letter-spacing:.2em;text-transform:uppercase;margin:6px 0 0;opacity:.9}
+.gate-q span{opacity:.6}
+.gate-langs{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.gate-langs .btn{min-width:170px}
+.gate-hint{font:400 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hero-muted);margin:0}
+
+/* ---------- Vibes ---------- */
+.vibes{display:inline-flex;align-items:center;gap:6px;padding:5px;border-radius:999px;border:1px solid color-mix(in srgb,currentColor 25%,transparent)}
+.vibes button{width:26px;height:26px;border-radius:50%;border:0;padding:0;cursor:pointer;background:conic-gradient(var(--a) 0 50%,var(--b) 0 100%);transform:rotate(-45deg);transition:transform .3s var(--ease)}
+.vibes button[aria-pressed="true"]{box-shadow:0 0 0 2px var(--hero),0 0 0 3.5px currentColor}
+.vibes button:hover{transform:rotate(-45deg) scale(1.12)}
+.vibe-name{font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:0 8px 0 4px;white-space:nowrap}
+
+/* ---------- Nav ---------- */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;color:var(--hero-ink);transition:background-color .4s;padding-top:env(safe-area-inset-top,0px)}
+.nav.solid{background:color-mix(in srgb,var(--hero) 90%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:78px}
+.brand{display:flex;align-items:center;text-decoration:none;color:var(--accent)}
+.brand svg{height:34px;width:auto}
+.nav-links{display:flex;gap:28px;font:500 14px var(--body)}
+.nav-links a{text-decoration:none;opacity:.78;transition:opacity .2s}
+.nav-links a:hover{opacity:1}
+.nav-right{display:flex;align-items:center;gap:12px}
+.lang{display:flex;font:500 12px var(--mono)}
+.lang button{background:none;border:0;color:inherit;opacity:.55;cursor:pointer;padding:6px}
+.lang button[aria-pressed="true"]{opacity:1;text-decoration:underline;text-underline-offset:5px;text-decoration-color:var(--accent)}
+.nav .btn{padding:12px 18px;font-size:14px}
+
+/* ---------- Hero ---------- */
+.hero{position:sticky;top:0;min-height:100svh;display:flex;align-items:center;color:var(--hero-ink);background:var(--hero);overflow:hidden;isolation:isolate;transition:background-color .6s var(--ease)}
+/* her green tile wall, as a quiet pattern */
+.tiles{position:absolute;inset:0;z-index:-3;opacity:.4;background:
+  repeating-linear-gradient(90deg,transparent 0 58px,color-mix(in srgb,var(--hero) 70%,#000) 58px 60px),
+  repeating-linear-gradient(0deg,transparent 0 158px,color-mix(in srgb,var(--hero) 70%,#000) 158px 160px),
+  linear-gradient(180deg,var(--tile),var(--hero) 85%);
+  -webkit-mask:linear-gradient(90deg,transparent 0%,#000 55%);mask:linear-gradient(90deg,transparent 0%,#000 55%)}
+#dust{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.hero .wrap{width:100%;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-block:120px 70px}
+.hero-copy{display:grid;gap:26px;transform:translate3d(0,calc(var(--p,0) * -90px),0);opacity:calc(1 - var(--p,0) * 1.5)}
+.hero .tag{color:var(--hero-muted)}
+.hero h1{font:400 clamp(48px,7vw,104px)/.95 var(--display);font-variation-settings:"opsz" 144;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.hero h1 em{font-style:italic;color:var(--accent);display:block}
+.hero-sub{font-size:clamp(16px,1.5vw,19px);max-width:46ch;color:color-mix(in srgb,var(--hero-ink) 80%,transparent);margin:0}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.chips{display:flex;gap:18px;flex-wrap:wrap;font:400 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hero-muted)}
+.chips .chip{display:inline-flex;align-items:center;gap:8px}
+.chips .chip::before{content:"";width:5px;height:5px;transform:rotate(45deg);background:var(--accent)}
+.arches{position:relative;justify-self:center;width:min(100%,460px);aspect-ratio:3/4;transform:translate3d(0,calc(var(--p,0) * 70px),0)}
+.arch{position:absolute;overflow:hidden;border-radius:999px 999px 18px 18px;background:var(--hero-2)}
+.arch img{width:100%;height:100%;object-fit:cover;transform:scale(calc(1.08 + var(--p,0) * .1))}
+.arch.a1{inset:0 0 0 12%}
+.arch.a1::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 -120px 80px -60px color-mix(in srgb,var(--hero) 70%,transparent)}
+.arch-line{position:absolute;inset:-14px -14px -14px calc(12% - 14px);border:1px solid color-mix(in srgb,var(--accent) 70%,transparent);border-radius:999px 999px 26px 26px;pointer-events:none}
+.arch.a2{width:44%;aspect-ratio:3/4;left:-6%;bottom:-6%;border:5px solid var(--hero);box-shadow:0 30px 60px rgba(0,0,0,.45);transform:translate3d(0,calc(var(--p,0) * -60px),0)}
+.seal{position:absolute;right:-9%;top:-3%;border-radius:50%;background:var(--hero);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 40%,transparent);width:118px;height:118px;color:var(--accent);animation:turn 22s linear infinite}
+.seal text{font:500 10.5px var(--mono);fill:currentColor;text-transform:uppercase}
+@keyframes turn{to{transform:rotate(360deg)}}
+.hero-tag{position:absolute;right:clamp(16px,4vw,40px);bottom:22px;font:400 10px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hero-muted);opacity:calc(.8 - var(--p,0) * 2)}
+.scroll-cue{position:absolute;left:50%;bottom:22px;width:1px;height:46px;background:linear-gradient(var(--accent),transparent);opacity:calc(.8 - var(--p,0) * 3);animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- Sheet ---------- */
+.sheet{position:relative;z-index:2;background:var(--bg);border-radius:30px 30px 0 0;overflow:clip;box-shadow:0 -30px 60px rgba(0,0,0,.35);transition:background-color .6s var(--ease)}
+footer{position:relative;z-index:2}
+.facts{border-bottom:1px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.fact{padding:34px 0 34px 26px;display:grid;gap:4px;border-left:1px solid var(--line)}
+.fact:first-child{border-left:0;padding-left:0}
+.fact b{font:400 44px/1 var(--display);color:var(--accent-text);letter-spacing:-.02em}
+.fact b i{font-style:italic}
+.fact span{font-size:13px;color:var(--muted)}
+section{padding-block:clamp(76px,10vw,132px)}
+.head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:56px}
+h2{font:400 clamp(40px,5.6vw,76px)/.98 var(--display);font-variation-settings:"opsz" 144;margin:16px 0 0;text-wrap:balance;letter-spacing:-.02em}
+h2 em{font-style:italic;color:var(--accent-text)}
+.head p{color:var(--muted);margin:0;max-width:46ch;justify-self:end}
+
+/* ---------- Menu / prices ---------- */
+.menu{display:grid;grid-template-columns:280px 1fr;gap:56px;align-items:start}
+.menu-tabs{display:grid;gap:6px;position:sticky;top:110px}
+.menu-tabs button{all:unset;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-radius:14px;font:500 16px var(--body);color:var(--muted);transition:background-color .3s,color .3s}
+.menu-tabs button small{font:400 11px var(--mono);letter-spacing:.1em}
+.menu-tabs button[aria-selected="true"]{background:var(--hero);color:var(--hero-ink)}
+.menu-tabs button[aria-selected="true"] small{color:var(--accent)}
+.menu-tabs button:focus-visible{outline:2px solid var(--accent)}
+.panel{display:grid;gap:0;animation:panelIn .6s var(--ease)}
+@keyframes panelIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.panel-note{font-size:14px;color:var(--muted);margin:0 0 18px;max-width:60ch}
+.row{display:grid;grid-template-columns:1fr auto;gap:6px 20px;padding:22px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.row:first-of-type{border-top:1px solid var(--line)}
+.row h3{margin:0;font:400 clamp(21px,2.2vw,26px)/1.15 var(--display);display:flex;align-items:baseline;gap:14px}
+.row h3::after{content:"";flex:1;min-width:20px;border-bottom:1px dotted color-mix(in srgb,var(--ink) 30%,transparent);transform:translateY(-6px)}
+.row .price{font:400 clamp(22px,2.2vw,28px)/1 var(--display);color:var(--accent-text);white-space:nowrap}
+.row .price small{font:400 12px var(--mono);color:var(--muted);margin-right:4px}
+.row p{grid-column:1/-1;margin:0;font-size:14px;color:var(--muted)}
+.row .time{font:400 12px var(--mono);letter-spacing:.06em;color:var(--muted)}
+.badge{font:500 10px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 8px;border-radius:999px;background:color-mix(in srgb,var(--accent) 22%,transparent);color:var(--accent-text);margin-left:8px;vertical-align:middle;white-space:nowrap}
+.menu-cta{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:30px;font-size:14px;color:var(--muted)}
+
+/* ---------- Signature: count your locs ---------- */
+.est{background:var(--hero);color:var(--hero-ink);transition:background-color .6s var(--ease)}
+.est h2 em{color:var(--accent)}
+.est .head p{color:var(--hero-muted)}
+.est .tag{color:var(--hero-muted)}
+.est-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
+@media (min-width:981px){.est .scalp{position:sticky;top:100px}}
+.scalp{position:relative;aspect-ratio:1;max-width:540px;width:100%;justify-self:center}
+.scalp canvas{width:100%;height:100%;display:block}
+.scalp-count{position:absolute;left:50%;bottom:2%;transform:translateX(-50%);font:400 12px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--hero-muted);white-space:nowrap}
+.scalp-count b{font:400 30px var(--display);color:var(--accent);letter-spacing:0;vertical-align:-4px;margin-right:6px}
+.ctrl{display:grid;gap:26px}
+.ctrl label,.ctrl legend{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--hero-muted);display:block;margin-bottom:12px;padding:0}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg button{all:unset;cursor:pointer;padding:11px 16px;border-radius:999px;border:1px solid color-mix(in srgb,var(--hero-ink) 22%,transparent);font:500 14px var(--body);transition:all .25s}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.range{display:flex;align-items:center;gap:16px}
+input[type=range]{-webkit-appearance:none;appearance:none;flex:1;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--accent) var(--fill,40%),color-mix(in srgb,var(--hero-ink) 18%,transparent) 0);outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:var(--accent);border:4px solid var(--hero);box-shadow:0 0 0 1px var(--accent),0 6px 18px rgba(0,0,0,.4);cursor:grab}
+input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--accent);border:4px solid var(--hero);cursor:grab}
+.range output{font:400 26px var(--display);min-width:3.2ch;text-align:right;color:var(--accent)}
+select{width:100%;appearance:none;background:color-mix(in srgb,var(--hero-ink) 6%,transparent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23d6b36a' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 16px center/12px;color:var(--hero-ink);border:1px solid color-mix(in srgb,var(--hero-ink) 22%,transparent);border-radius:14px;padding:14px 40px 14px 16px;font:500 15px var(--body)}
+select option{color:#111}
+.checks{display:flex;gap:10px;flex-wrap:wrap}
+.ctrl .check{display:inline-flex!important;align-items:center;gap:10px;margin:0!important;cursor:pointer;padding:11px 16px;border-radius:999px;border:1px solid color-mix(in srgb,var(--hero-ink) 22%,transparent);font:500 14px var(--body)!important;letter-spacing:0!important;text-transform:none!important;color:var(--hero-ink)!important}
+.check input{accent-color:var(--accent);width:16px;height:16px;margin:0}
+.total{border-top:1px solid color-mix(in srgb,var(--hero-ink) 16%,transparent);padding-top:24px;display:grid;grid-template-columns:1fr auto;gap:10px 20px;align-items:end}
+.total .amt{font:400 clamp(52px,6vw,76px)/.9 var(--display);color:var(--accent);letter-spacing:-.02em}
+.total .amt small{font-size:.45em;color:var(--hero-muted);margin-right:6px;font-style:italic}
+.total .dur{font:400 13px var(--mono);letter-spacing:.08em;color:var(--hero-muted);text-align:right}
+.total .dur b{display:block;font:400 26px var(--display);color:var(--hero-ink);letter-spacing:0}
+.lines{grid-column:1/-1;margin:0;padding:0;list-style:none;font-size:13px;color:var(--hero-muted);display:grid;gap:4px}
+.lines li{display:flex;justify-content:space-between;gap:12px}
+.est-note{grid-column:1/-1;font-size:12px;color:var(--hero-muted);margin:4px 0 0}
+.total .btn{grid-column:1/-1;justify-self:start;margin-top:8px}
+
+/* ---------- Gallery ---------- */
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(150px,17vw,230px);gap:12px}
+.ph{position:relative;overflow:hidden;border-radius:16px;background:var(--line);cursor:zoom-in;border:0;padding:0}
+.ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease),filter .6s}
+.ph:hover img{transform:scale(1.05)}
+.ph.tall{grid-row:span 2}
+.ph.big{grid-row:span 2;grid-column:span 2}
+.ph.arched{border-radius:999px 999px 16px 16px}
+.gal-foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-top:28px}
+.gal-foot p{margin:0;color:var(--muted);font-size:14px}
+.lb{border:0;padding:0;background:transparent;max-width:min(92vw,900px);max-height:92svh}
+.lb::backdrop{background:color-mix(in srgb,var(--hero) 92%,transparent);backdrop-filter:blur(8px)}
+.lb img{max-height:86svh;width:auto;margin:0 auto;border-radius:16px}
+.lb-bar{display:flex;justify-content:center;gap:10px;margin-top:12px}
+.lb-bar button{all:unset;cursor:pointer;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,#fff 12%,transparent);color:#fff;font:400 20px var(--body)}
+
+/* ---------- Care rhythm ---------- */
+.care{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:30px;display:grid;gap:12px;align-content:start;transition:background-color .6s var(--ease)}
+.card .big-n{font:400 64px/1 var(--display);letter-spacing:-.03em;color:var(--accent-text)}
+.card .big-n i{font-size:.4em;font-style:italic;color:var(--muted);margin-left:6px;letter-spacing:0}
+.card h3{margin:0;font:600 18px var(--body)}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.ring{width:100%;height:8px;border-radius:8px;background:var(--line);overflow:hidden;margin-top:6px}
+.ring i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-text));width:0;transition:width 1.6s var(--ease) .3s}
+.rv.in .ring i{width:var(--w)}
+.policies{margin-top:16px;display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;border-top:1px solid var(--line)}
+.policies li{list-style:none;padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:28px 1fr;gap:8px;font-size:15px}
+.policies li::before{content:"✦";color:var(--accent-text);font-size:13px;padding-top:3px}
+.policies{padding:0;margin-inline:0}
+
+/* ---------- Survey band ---------- */
+.survey{padding:0}
+.survey-box{position:relative;overflow:hidden;border-radius:30px;background:var(--hero);color:var(--hero-ink);display:grid;grid-template-columns:1.3fr 1fr;align-items:stretch;transition:background-color .6s var(--ease)}
+.survey-copy{padding:clamp(32px,5vw,64px);display:grid;gap:20px;align-content:center}
+.survey-copy h2{margin:0;font-size:clamp(34px,4.4vw,58px)}
+.survey-copy h2 em{color:var(--accent)}
+.survey-copy p{margin:0;color:var(--hero-muted);max-width:44ch}
+.stars{display:flex;gap:6px;color:var(--accent)}
+.stars svg{width:26px;height:26px;opacity:0;transform:scale(.4) rotate(-30deg);transition:all .6s var(--ease);transition-delay:calc(var(--i) * 110ms + .3s)}
+.rv.in .stars svg{opacity:1;transform:none}
+.survey-ph{position:relative;min-height:320px}
+.survey-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.survey-ph::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--hero),transparent 40%)}
+
+/* ---------- Visit ---------- */
+.visit{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:stretch}
+.info{display:grid;gap:0;align-content:start}
+.info .it{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.info .it:first-child{border-top:1px solid var(--line)}
+.info .k{font:500 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding-top:4px}
+.info .v{font:400 20px/1.35 var(--display)}
+.info .v a{text-decoration-color:color-mix(in srgb,var(--accent) 70%,transparent);text-underline-offset:4px}
+.info .v small{display:block;font:400 14px var(--body);color:var(--muted)}
+.now{display:inline-flex;align-items:center;gap:8px;font:500 12px var(--mono);letter-spacing:.06em;margin-top:6px;color:var(--muted)}
+.now i{width:8px;height:8px;border-radius:50%;background:#999}
+.now.open i{background:#3fb36b;box-shadow:0 0 0 4px color-mix(in srgb,#3fb36b 25%,transparent)}
+.map{border-radius:24px;overflow:hidden;min-height:380px;background:var(--line);position:relative;border:1px solid var(--line)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.35) contrast(1.05)}
+.visit-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+
+/* ---------- Footer ---------- */
+footer{background:var(--hero);color:var(--hero-ink);padding:64px 0 40px;transition:background-color .6s var(--ease)}
+.foot-big{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;padding-bottom:40px;border-bottom:1px solid color-mix(in srgb,var(--hero-ink) 14%,transparent)}
+.foot-big svg{height:clamp(54px,9vw,110px);width:auto;color:var(--accent)}
+.foot-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:26px;font-size:13px;color:var(--hero-muted)}
+.foot-row a{color:var(--hero-ink)}
+details.law{max-width:64ch}
+details.law summary{cursor:pointer;color:var(--hero-ink)}
+details.law p{margin:10px 0 0}
+
+/* ---------- extras link ---------- */
+.see-more{display:inline-flex;gap:8px;align-items:center;margin-top:14px;font:500 14px var(--body);color:var(--accent);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 45%,transparent);padding-bottom:2px}
+.see-more:hover .arr{transform:translateX(4px)}
+.see-more .arr{transition:transform .3s var(--ease)}
+
+/* ---------- About ---------- */
+.about{padding-top:0}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,90px);align-items:center}
+.about-ph{position:relative;margin:0;border-radius:999px 999px 24px 24px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 40px 80px -30px rgba(0,0,0,.45)}
+.about-ph img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.about-ph::before{content:"";position:absolute;inset:12px;border:1px solid color-mix(in srgb,var(--accent) 75%,transparent);border-radius:999px 999px 16px 16px;z-index:1;pointer-events:none}
+.about-ph figcaption{position:absolute;left:0;right:0;bottom:0;padding:60px 24px 24px;background:linear-gradient(transparent,color-mix(in srgb,var(--hero) 88%,transparent));color:var(--accent);display:flex;justify-content:center}
+.about-ph figcaption svg{height:38px;width:auto}
+.about-copy{display:grid;gap:20px;justify-items:start}
+.about-copy h2{margin:0}
+.about-copy p{margin:0;color:var(--muted);max-width:52ch;font-size:17px}
+.about-copy p.lead{font:400 clamp(21px,2vw,25px)/1.4 var(--display);color:var(--ink)}
+.about-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.about-list li{padding:9px 15px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font:500 13px var(--body)}
+
+/* ---------- Policies ---------- */
+.pol{padding-top:0}
+.pol-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pol-col{padding:34px 30px 34px;border-left:1px solid var(--line)}
+.pol-col:first-child{border-left:0;padding-left:0}
+.pol-col:last-child{padding-right:0}
+.pol-ic{width:46px;height:46px;color:var(--accent-text);margin-bottom:14px}
+.pol-col h3{margin:0 0 14px;font:400 26px/1.1 var(--display)}
+.pol-col ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.pol-col li{font-size:15px;color:var(--muted);padding-left:18px;position:relative}
+.pol-col li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;transform:rotate(45deg);background:var(--accent)}
+.pol-col b{color:var(--ink);font-weight:600}
+.deposit{margin-top:28px;display:grid;grid-template-columns:auto 1fr;gap:20px 48px;align-items:center;background:var(--hero);color:var(--hero-ink);border-radius:24px;padding:30px clamp(24px,4vw,44px);transition:background-color .6s var(--ease)}
+.dep-amt{display:grid;gap:4px}
+.dep-amt b{font:400 64px/1 var(--display);color:var(--accent);letter-spacing:-.02em}
+.dep-amt>span{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--hero-muted)}
+.dep-info{margin:0;display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:20px}
+.dep-info dt{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--hero-muted);margin-bottom:6px}
+.dep-info dd{margin:0;font:400 22px/1.2 var(--display);word-break:break-word}
+.copy{all:unset;cursor:pointer;font:inherit;border-bottom:1px dashed color-mix(in srgb,var(--accent) 60%,transparent)}
+.copy small{font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-left:6px;vertical-align:middle}
+.copy:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.pol-warn{display:flex;gap:14px;align-items:flex-start;margin:22px 0 0;font-size:14px;color:var(--muted);max-width:90ch}
+.pol-warn svg{width:20px;height:20px;flex:none;color:var(--accent-text);margin-top:2px}
+
+/* ---------- Socials: reels + small logos ---------- */
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,24px);align-items:start}
+.reel{margin:0;display:grid;gap:14px}
+.reel:nth-child(2){transform:translateY(40px)}
+.reel-frame{position:relative;aspect-ratio:9/16;border-radius:28px;overflow:hidden;background:var(--hero);box-shadow:0 30px 60px -28px rgba(0,0,0,.55),0 0 0 1px color-mix(in srgb,var(--accent) 35%,transparent)}
+.reel-frame::after{content:"";position:absolute;inset:8px;border-radius:22px;border:1px solid rgba(255,255,255,.14);pointer-events:none}
+.reel video{width:100%;height:100%;object-fit:cover;display:block}
+.ig-frame{background:#000;container-type:inline-size}
+/* Instagram's player is a 58px header + a 4:5 box holding the 9:16 reel: scale it so the reel fills our 9:16 frame */
+.ig-frame iframe{position:absolute;left:50%;top:0;width:100cqw;height:calc(100cqw * 1.24 + 300px);border:0;transform-origin:50% 0;transform:translateX(-50%) scale(1.46) translateY(-59px)}
+.reel-snd{all:unset;cursor:pointer;position:absolute;right:14px;bottom:14px;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.45);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;z-index:2;transition:transform .3s var(--ease),background-color .3s}
+.reel-snd:hover{transform:scale(1.08)}
+.reel-snd .snd{width:20px;height:20px}
+.reel-snd .w{display:none}
+.reel-snd.on .w{display:block}.reel-snd.on .x{display:none}
+.reel-snd.on{background:var(--accent);color:var(--accent-ink)}
+.reel figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px}
+.reel-badge{display:inline-flex;align-items:center;gap:8px;font:500 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.rb-ic{width:18px;height:18px;color:var(--ink)}
+.reel figcaption a{text-decoration:none;font-weight:600;color:var(--accent-text)}
+.reel figcaption a:hover{text-decoration:underline;text-underline-offset:4px}
+.soc-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:clamp(70px,8vw,100px);padding-top:28px;border-top:1px solid var(--line)}
+.soc-lab{font:500 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.sl{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:999px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font:500 14px var(--body);transition:transform .3s var(--ease),border-color .3s}
+.sl:hover{transform:translateY(-2px);border-color:var(--accent)}
+.sl-ic{width:32px;height:32px;padding:7px;border-radius:50%;color:#fff;flex:none}
+.sl.ig .sl-ic{background:linear-gradient(135deg,#feda75,#fa7e1e 25%,#d62976 55%,#962fbf 80%,#4f5bd5)}
+.sl.tt .sl-ic{background:#0b0b0d}
+.sl.fb .sl-ic{background:#1877f2}
+.sl.wa .sl-ic{background:#1fae54}
+.btn-wa{background:#1fae54;color:#fff}
+.btn-wa:hover{box-shadow:0 12px 30px rgba(31,174,84,.4)}
+.foot-soc{display:flex;gap:14px}
+.foot-soc a{color:var(--hero-ink);opacity:.75;transition:opacity .2s,color .2s}
+.foot-soc a:hover{opacity:1;color:var(--accent)}
+.foot-soc .ic{width:20px;height:20px}
+@media (max-width:980px){
+  .about-grid{grid-template-columns:1fr}
+  .about-ph{max-width:420px;width:100%;justify-self:center}
+  .pol-grid{grid-template-columns:1fr}
+  .pol-col{border-left:0;padding:28px 0;border-top:1px solid var(--line)}
+  .pol-col:first-child{border-top:0}
+  .deposit{grid-template-columns:1fr}
+  .reels{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:72%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-inline:calc(-1 * clamp(16px,4vw,40px));padding:0 clamp(16px,4vw,40px) 10px}
+  .reel{scroll-snap-align:center}
+  .reel:nth-child(2){transform:none}
+}
+@media (max-width:620px){
+  .dep-info{grid-template-columns:1fr 1fr}
+  .dep-info>div:first-child{grid-column:1/-1}
+  .sl span{display:none}
+  .sl{padding:8px}
+  .soc-lab{width:100%}
+}
+
+/* crochet-hook cursor (desktop) */
+@media (pointer:fine){
+  html,body{cursor:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23141414'%20stroke-width='4.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23dfe3e8'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23141414'%20stroke-width='3.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23dfe3e8'%20stroke-width='1.5'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23141414'%20stroke-width='7'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23d6b36a'%20stroke-width='4.8'%20stroke-linecap='round'/%3E%3Cpath%20d='M18%2018L22%2022'%20stroke='rgba%28255%2C255%2C255%2C.55%29'%20stroke-width='1.2'%20stroke-linecap='round'/%3E%3C/svg%3E") 3 3,auto}
+  a,button,select,label,summary,[role=tab],.ph,.copy,input[type=checkbox],input[type=range]{cursor:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%3E%3Ccircle%20cx='4'%20cy='4'%20r='3.6'%20fill='rgba%28214%2C179%2C106%2C.55%29'/%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23141414'%20stroke-width='4.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23dfe3e8'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23141414'%20stroke-width='3.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23dfe3e8'%20stroke-width='1.5'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23141414'%20stroke-width='7'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23f0cf83'%20stroke-width='4.8'%20stroke-linecap='round'/%3E%3Cpath%20d='M18%2018L22%2022'%20stroke='rgba%28255%2C255%2C255%2C.55%29'%20stroke-width='1.2'%20stroke-linecap='round'/%3E%3C/svg%3E") 3 3,pointer}
+  .logo3d{cursor:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%3E%3Ccircle%20cx='4'%20cy='4'%20r='3.6'%20fill='rgba%28214%2C179%2C106%2C.55%29'/%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23141414'%20stroke-width='4.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6%206L28%2028'%20stroke='%23dfe3e8'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23141414'%20stroke-width='3.4'%20stroke-linecap='round'/%3E%3Cpath%20d='M6.6%206.6C4.6%204.6%202.4%205.2%202.4%203.4c0-1.3%201.7-1.7%202.7-.8'%20fill='none'%20stroke='%23dfe3e8'%20stroke-width='1.5'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23141414'%20stroke-width='7'%20stroke-linecap='round'/%3E%3Cpath%20d='M16.5%2016.5L28.5%2028.5'%20stroke='%23f0cf83'%20stroke-width='4.8'%20stroke-linecap='round'/%3E%3Cpath%20d='M18%2018L22%2022'%20stroke='rgba%28255%2C255%2C255%2C.55%29'%20stroke-width='1.2'%20stroke-linecap='round'/%3E%3C/svg%3E") 3 3,grab}
+}
+
+.callbar{display:none}
+
+.js .rv{opacity:0;transform:translateY(40px);filter:blur(6px);transition:opacity 1.3s var(--ease),transform 1.3s var(--ease),filter 1.3s var(--ease);transition-delay:calc(var(--i,0) * 90ms)}
+.js .rv.in{opacity:1;transform:none;filter:none}
+.js .ph.rv{transform:none;filter:none;clip-path:inset(100% 0 0 0);transition:clip-path 1.4s var(--ease),opacity .6s;transition-delay:calc(var(--i,0) * 90ms)}
+.js .ph.rv.in{clip-path:inset(0 0 0 0)}
+@media (max-width:900px),(pointer:coarse){.js .rv{filter:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .rv,.js .ph.rv{opacity:1;transform:none;filter:none;clip-path:none}.hero-copy,.arches,.arch img,.arch.a2{transform:none!important;opacity:1!important}.gate .logo3d,.seal,.scroll-cue{animation:none}}
+
+[data-en]{display:none!important}
+html[lang="en"] [data-en]{display:revert!important}
+html[lang="en"] [data-fr]{display:none!important}
+
+@media (max-width:980px){
+  .nav-links{display:none}
+  .hero .wrap{grid-template-columns:1fr;padding-block:110px 60px;gap:40px}
+  .arches{width:min(78%,380px);order:-1}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact:nth-child(3){border-left:0;padding-left:0}
+  .fact:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .head,.est-grid,.visit,.survey-box{grid-template-columns:1fr}
+  .head p{justify-self:start}
+  .menu{grid-template-columns:1fr;gap:24px}
+  .menu-tabs{position:static;display:flex;overflow-x:auto;gap:6px;scrollbar-width:none;margin-inline:calc(-1 * clamp(16px,4vw,40px));padding-inline:clamp(16px,4vw,40px)}
+  .menu-tabs button{white-space:nowrap;padding:12px 16px;border:1px solid var(--line)}
+  html[lang] .menu-tabs button small{display:none!important}
+  .care{grid-template-columns:1fr}
+  .policies{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr}
+  .survey-ph{min-height:260px;order:-1}
+  .survey-ph::before{background:linear-gradient(0deg,var(--hero),transparent 50%)}
+}
+@media (max-width:620px){
+  .nav .nav-right>.btn,.vibe-name{display:none}
+  .brand svg{height:26px}
+  .hero{align-items:flex-start}
+  .hero .wrap{padding-top:96px}
+  .arches{width:72%;margin-left:6%}
+  .seal{width:90px;height:90px;right:-12%}
+  .info .it{grid-template-columns:1fr;gap:4px}
+  .callbar{display:grid;grid-template-columns:1.5fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:55;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--hero)}
+  .callbar .btn{width:100%;padding-inline:12px}
+  footer{padding-bottom:110px}
+}
+</style>
+</head>
+<body>
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateQ">
+  <div class="logo3d" id="logo3d" aria-hidden="true">
+    <svg class="flat" xmlns="http://www.w3.org/2000/svg" viewBox="{{LOGO_VB}}"><path fill="currentColor" fill-rule="evenodd" d="{{LOGO_D}}"/></svg>
+    <canvas id="logoCanvas"></canvas>
+  </div>
+  <p class="gate-sub">Your favourite loctician<small>Locs · LaSalle · Montréal</small></p>
+  <p class="gate-q" id="gateQ">Choose your language <span>· Choisis ta langue</span></p>
+  <div class="gate-langs">
+    <button type="button" class="btn btn-accent" data-pick="en">English</button>
+    <button type="button" class="btn btn-line" data-pick="fr">Français</button>
+  </div>
+  <div class="vibes" role="group" aria-label="Vibe / Ambiance" data-vibes>
+    <span class="vibe-name" data-vibe-label>Emerald</span>
+  </div>
+  <p class="gate-hint">Drag the logo · Glisse le logo</p>
+</div>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Key Did Dat"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="{{LOGO_VB}}"><path fill="currentColor" fill-rule="evenodd" d="{{LOGO_D}}"/></svg></a>
+    <nav class="nav-links" aria-label="Menu">
+      <a href="#prix"><span data-fr>Tarifs</span><span data-en>Prices</span></a>
+      <a href="#apropos"><span data-fr>À propos</span><span data-en>About</span></a>
+      <a href="#travail"><span data-fr>Réalisations</span><span data-en>The work</span></a>
+      <a href="#politiques"><span data-fr>Politiques</span><span data-en>Policies</span></a>
+      <a href="#visite"><span data-fr>Visite</span><span data-en>Visit</span></a>
+    </nav>
+    <div class="nav-right">
+      <div class="vibes" role="group" aria-label="Vibe / Ambiance" data-vibes>
+        <span class="vibe-name" data-vibe-label>Emerald</span>
+      </div>
+      <div class="lang" role="group" aria-label="Language / Langue">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+      <a class="btn btn-accent" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver</span><span data-en>Book now</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" style="padding:0">
+    <div class="tiles" aria-hidden="true"></div>
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="tag"><span data-fr>Loctician · LaSalle, Montréal</span><span data-en>Loctician · LaSalle, Montréal</span></span>
+        <h1><span data-fr>Des locs fraîches?</span><span data-en>Fresh locs?</span> <em>Key did dat.</em></h1>
+        <p class="hero-sub"><span data-fr>Retwists, interlocks, départs de locs, détox et coiffures, faits avec soin par ta loctician préférée, au 2480 rue Lapierre.</span><span data-en>Retwists, interlocks, starter locs, detox and styles, done with care by your favourite loctician at 2480 rue Lapierre.</span></p>
+        <div class="hero-cta">
+          <a class="btn btn-accent" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver en ligne</span><span data-en>Book online</span> <span class="arr">→</span></a>
+          <a class="btn btn-line" href="#prix"><span data-fr>Voir les tarifs</span><span data-en>See prices</span></a>
+        </div>
+        <div class="chips"><span class="chip"><span data-fr>Mardi au samedi</span><span data-en>Tuesday to Saturday</span></span><span class="chip"><span data-fr>Réservation 24/7</span><span data-en>Book 24/7</span></span><span class="chip">@keydiddat</span></div>
+      </div>
+      <div class="arches" aria-hidden="true">
+        <div class="arch-line"></div>
+        <div class="arch a1"><img src="assets/hero.jpg" alt="" fetchpriority="high"></div>
+        <div class="arch a2"><img src="assets/w02.jpg" alt=""></div>
+        <svg class="seal" viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#circ" textLength="286" lengthAdjust="spacing">Key did dat ✦ LaSalle ✦ Locs ✦ </textPath></text><path d="M60 47l3.6 9.4 9.4 3.6-9.4 3.6L60 73l-3.6-9.4L47 60l9.4-3.6z" fill="currentColor"/></svg>
+      </div>
+    </div>
+    <span class="scroll-cue" aria-hidden="true"></span>
+    <span class="hero-tag"><span data-fr>Photos : vraies clientes, vrai travail</span><span data-en>Photos: real clients, real work</span></span>
+  </section>
+
+  <div class="sheet">
+    <div class="facts">
+      <div class="wrap">
+        <div class="fact rv"><b><span data-fr>75&nbsp;$</span><span data-en>$75</span></b><span data-fr>Retwist, à partir de</span><span data-en>Retwist, starting at</span></div>
+        <div class="fact rv"><b>4–6 <i data-fr>sem.</i><i data-en>wk</i></b><span data-fr>Rythme d’un retwist</span><span data-en>Retwist rhythm</span></div>
+        <div class="fact rv"><b>2–3 <i data-fr>mois</i><i data-en>mo</i></b><span data-fr>Rythme d’un interlock</span><span data-en>Interlock rhythm</span></div>
+        <div class="fact rv"><b><i data-fr>Mar–Sam</i><i data-en>Tue–Sat</i></b><span data-fr>Sur rendez-vous</span><span data-en>By appointment</span></div>
+      </div>
+    </div>
+
+    <section id="prix">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Le menu</span><span data-en>The menu</span></span>
+            <h2><span data-fr>Choisis ton <em>service.</em></span><span data-en>Pick your <em>service.</em></span></h2></div>
+          <p class="rv"><span data-fr>Les prix de maintenance dépendent du nombre de locs. Le style n’est pas inclus : ajoute-le comme extra quand tu réserves.</span><span data-en>Maintenance prices go by how many locs you have. A style isn’t included: add one as an extra when you book.</span></p>
+        </div>
+        <div class="menu">
+          <div class="menu-tabs rv" role="tablist" aria-label="Services">
+            <button role="tab" aria-selected="true" data-tab="retwist"><span>Retwist</span><small data-fr>dès 75 $</small><small data-en>from $75</small></button>
+            <button role="tab" aria-selected="false" data-tab="interlock"><span>Interlock</span><small data-fr>dès 80 $</small><small data-en>from $80</small></button>
+            <button role="tab" aria-selected="false" data-tab="start"><span data-fr>Départ et restauration</span><span data-en>Starter &amp; restoration</span><small data-fr>dès 180 $</small><small data-en>from $180</small></button>
+            <button role="tab" aria-selected="false" data-tab="extras"><span data-fr>Extras et styles</span><span data-en>Extras &amp; styles</span><small data-fr>dès 5 $</small><small data-en>from $5</small></button>
+          </div>
+          <div class="rv">
+            <div class="panel" role="tabpanel" data-panel="retwist">
+              <p class="panel-note"><span data-fr>À refaire aux 4 à 6 semaines pour des locs en santé. Un retard peut entraîner un supplément ou un report.</span><span data-en>Best every 4–6 weeks for healthy locs. Going longer may mean an upcharge or a rescheduled appointment.</span></p>
+              <div class="row"><h3><span data-fr>Jusqu’à 50 locs</span><span data-en>Up to 50 locs</span></h3><span class="price"><span data-fr>75&nbsp;$</span><span data-en>$75</span></span><span class="time">1 h 30</span></div>
+              <div class="row"><h3><span data-fr>51 à 100 locs</span><span data-en>51–100 locs</span></h3><span class="price"><span data-fr>85&nbsp;$</span><span data-en>$85</span></span><span class="time">2 h</span></div>
+              <div class="row"><h3><span data-fr>101 à 130 locs</span><span data-en>101–130 locs</span></h3><span class="price"><span data-fr>95&nbsp;$</span><span data-en>$95</span></span><span class="time">2 h 30</span></div>
+            </div>
+            <div class="panel" role="tabpanel" data-panel="interlock" hidden>
+              <p class="panel-note"><span data-fr>À refaire aux 2 à 3 mois. Un retard entraînera un supplément ou un report.</span><span data-en>Best every 2–3 months. Going longer will mean an upcharge or a rescheduled appointment.</span></p>
+              <div class="row"><h3><span data-fr>Jusqu’à 50 locs</span><span data-en>Up to 50 locs</span></h3><span class="price"><span data-fr>80&nbsp;$</span><span data-en>$80</span></span><span class="time">1 h 30</span></div>
+              <div class="row"><h3><span data-fr>51 à 100 locs</span><span data-en>51–100 locs</span></h3><span class="price"><span data-fr>90&nbsp;$</span><span data-en>$90</span></span><span class="time">2 h</span></div>
+              <div class="row"><h3><span data-fr>101 à 130 locs</span><span data-en>101–130 locs</span></h3><span class="price"><span data-fr>100&nbsp;$</span><span data-en>$100</span></span><span class="time">2 h 30</span></div>
+            </div>
+            <div class="panel" role="tabpanel" data-panel="start" hidden>
+              <p class="panel-note"><span data-fr>Méthode interlock, coils, ou vanilles avec coil à la racine. Le prix varie selon la longueur et la grosseur voulue : écris à Key sur Instagram ou par courriel.</span><span data-en>Interlock method, coils, or two-strand twists with a coil at the root. Price depends on length and the size you want: DM Key on Instagram or email.</span></p>
+              <div class="row"><h3><span data-fr>Départ de locs · vanilles</span><span data-en>Starter locs · two-strand</span></h3><span class="price"><small data-fr>dès</small><small data-en>from</small><span data-fr>180&nbsp;$</span><span data-en>$180</span></span><span class="time">≈ 5 h</span></div>
+              <div class="row"><h3><span data-fr>Instant locs</span><span data-en>Instant locs</span></h3><span class="price"><small data-fr>dès</small><small data-en>from</small><span data-fr>280&nbsp;$</span><span data-en>$280</span></span><span class="time">≈ 5 h</span></div>
+              <div class="row"><h3><span data-fr>Restauration</span><span data-en>Restoration</span></h3><span class="price"><span data-fr>50&nbsp;$</span><span data-en>$50</span><small><span data-fr> / h</span><span data-en> / hr</span></small></span><p><span data-fr>Pour passer du freeform aux locs, ou si tu n’as pas eu d’entretien depuis 6 mois ou plus.</span><span data-en>To turn freeform into locs, or if it’s been 6 months or more since your last maintenance.</span></p></div>
+              <div class="row"><h3><span data-fr>Style seulement</span><span data-en>Style only</span> <span class="badge" data-fr>comptant</span><span class="badge" data-en>cash only</span></h3><span class="price"><span data-fr>25&nbsp;$</span><span data-en>$25</span></span><span class="time">1 h</span><p><span data-fr>Tresses collées ou vanilles, sans maintenance. Offert aux clientes et clients existants seulement.</span><span data-en>Cornrows or twists, no maintenance. For existing clients only.</span></p></div>
+            </div>
+            <div class="panel" role="tabpanel" data-panel="extras" hidden>
+              <p class="panel-note"><span data-fr>À ajouter à ton rendez-vous de maintenance.</span><span data-en>Add these to your maintenance appointment.</span></p>
+              <div class="row"><h3>Détox</h3><span class="price"><span data-fr>40&nbsp;$</span><span data-en>$40</span></span><span class="time">1 h 15</span></div>
+              <div class="row"><h3><span data-fr>Lavage</span><span data-en>Hair wash</span></h3><span class="price"><span data-fr>20&nbsp;$</span><span data-en>$20</span></span><span class="time">1 h</span></div>
+              <div class="row"><h3><span data-fr>Style · barrels ou tresses collées</span><span data-en>Style · barrels or cornrows</span></h3><span class="price"><span data-fr>+5&nbsp;$</span><span data-en>+$5</span></span></div>
+              <div class="row"><h3><span data-fr>Style · vanilles ou tresses simples</span><span data-en>Style · twists or single braids</span></h3><span class="price"><span data-fr>+10&nbsp;$</span><span data-en>+$10</span></span></div>
+              <div class="row"><h3><span data-fr>Style · occasion spéciale</span><span data-en>Style · special occasion</span></h3><span class="price"><span data-fr>+25&nbsp;$</span><span data-en>+$25</span></span><p><span data-fr>Pinces, cure-pipes et compagnie.</span><span data-en>Bobby pins, pipe cleaners and more.</span></p></div>
+              <div class="row"><h3><span data-fr>Boho (tes propres cheveux)</span><span data-en>Boho (bring your own hair)</span></h3><span class="price"><span data-fr>+20&nbsp;$</span><span data-en>+$20</span></span></div>
+              <div class="row"><h3><span data-fr>Tresses collées allongées</span><span data-en>Extended cornrows</span> <span class="badge" data-fr>cheveux fournis</span><span class="badge" data-en>hair provided</span></h3><span class="price"><span data-fr>45&nbsp;$</span><span data-en>$45</span></span></div>
+              <div class="row"><h3><span data-fr>Grosses tresses allongées</span><span data-en>Extended jumbo braids</span></h3><span class="price"><span data-fr>80&nbsp;$</span><span data-en>$80</span></span></div>
+              <div class="row"><h3><span data-fr>Vanilles allongées</span><span data-en>Extended twists</span></h3><span class="price"><span data-fr>100&nbsp;$</span><span data-en>$100</span></span></div>
+              <div class="row"><h3><span data-fr>Tresses simples allongées</span><span data-en>Extended single braids</span></h3><span class="price"><span data-fr>115&nbsp;$</span><span data-en>$115</span></span></div>
+              <div class="row"><h3><span data-fr>Repousse de 3 à 6 mois</span><span data-en>3–6 months of new growth</span></h3><span class="price"><span data-fr>+5&nbsp;$</span><span data-en>+$5</span></span></div>
+            </div>
+            <div class="menu-cta">
+              <a class="btn btn-ink" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver ce service</span><span data-en>Book this service</span> <span class="arr">→</span></a>
+              <span><span data-fr>Pas sûr·e de ton nombre de locs?</span><span data-en>Not sure how many locs you have?</span> <a href="#estimateur"><span data-fr>Essaie l’estimateur</span><span data-en>Try the estimator</span></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="est" id="estimateur">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Estimateur</span><span data-en>Estimator</span></span>
+            <h2><span data-fr>Compte tes locs, <em>vois ton prix.</em></span><span data-en>Count your locs, <em>see your price.</em></span></h2></div>
+          <p class="rv"><span data-fr>Glisse le nombre de locs, choisis ta méthode et tes extras. Les parts se dessinent sur la tête et le total suit, selon les prix de réservation de Key.</span><span data-en>Slide to your loc count, pick your method and extras. The parts draw themselves on the head and the total follows, using Key’s booking prices.</span></p>
+        </div>
+        <div class="est-grid">
+          <div class="scalp rv"><canvas id="scalp" role="img" aria-label="Top view of a head with loc parts"></canvas><div class="scalp-count"><b id="cnt">70</b><span data-fr>locs</span><span data-en>locs</span></div></div>
+          <div class="ctrl rv">
+            <fieldset><legend><span data-fr>Méthode</span><span data-en>Method</span></legend>
+              <div class="seg" data-seg="method"><button type="button" data-v="retwist" aria-pressed="true">Retwist</button><button type="button" data-v="interlock" aria-pressed="false">Interlock</button></div></fieldset>
+            <div><label for="locs"><span data-fr>Nombre de locs</span><span data-en>How many locs</span></label>
+              <div class="range"><input type="range" id="locs" min="20" max="160" step="1" value="70"><output for="locs" id="locsOut">70</output></div></div>
+            <fieldset><legend><span data-fr>Depuis ton dernier entretien</span><span data-en>Since your last maintenance</span></legend>
+              <div class="seg" data-seg="growth"><button type="button" data-v="ok" aria-pressed="true"><span data-fr>Moins de 3 mois</span><span data-en>Under 3 months</span></button><button type="button" data-v="mid" aria-pressed="false"><span data-fr>3 à 6 mois</span><span data-en>3–6 months</span></button><button type="button" data-v="long" aria-pressed="false"><span data-fr>6 mois +</span><span data-en>6+ months</span></button></div></fieldset>
+            <div><label for="style"><span data-fr>Style</span><span data-en>Style</span></label>
+              <select id="style">
+                <option value="none" data-fr="Pas de style" data-en="No style">No style</option>
+                <option value="barrels" data-fr="Barrels ou tresses collées (+5 $)" data-en="Barrels or cornrows (+$5)">Barrels or cornrows (+$5)</option>
+                <option value="twists" data-fr="Vanilles ou tresses simples (+10 $)" data-en="Twists or single braids (+$10)">Twists or single braids (+$10)</option>
+                <option value="boho" data-fr="Boho, tes cheveux (+20 $)" data-en="Boho, your own hair (+$20)">Boho, your own hair (+$20)</option>
+                <option value="special" data-fr="Occasion spéciale (+25 $)" data-en="Special occasion (+$25)">Special occasion (+$25)</option>
+                <option value="xcorn" data-fr="Tresses collées allongées (45 $)" data-en="Extended cornrows ($45)">Extended cornrows ($45)</option>
+                <option value="xjumbo" data-fr="Grosses tresses allongées (80 $)" data-en="Extended jumbo braids ($80)">Extended jumbo braids ($80)</option>
+                <option value="xtwist" data-fr="Vanilles allongées (100 $)" data-en="Extended twists ($100)">Extended twists ($100)</option>
+                <option value="xsingle" data-fr="Tresses simples allongées (115 $)" data-en="Extended single braids ($115)">Extended single braids ($115)</option>
+              </select></div>
+            <fieldset><legend><span data-fr>Extras</span><span data-en>Extras</span></legend>
+              <div class="checks"><label class="check"><input type="checkbox" id="detox"> <span data-fr>Détox · 40 $</span><span data-en>Detox · $40</span></label><label class="check"><input type="checkbox" id="wash"> <span data-fr>Lavage · 20 $</span><span data-en>Wash · $20</span></label></div><a class="see-more" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Voir la réservation pour d’autres extras</span><span data-en>See booking for extra add-ons</span> <span class="arr">→</span></a></fieldset>
+            <div class="total" aria-live="polite">
+              <div class="amt" id="amt">$85</div>
+              <div class="dur"><span data-fr>Durée approx.</span><span data-en>About</span><b id="dur">2 h</b></div>
+              <ul class="lines" id="lines"></ul>
+              <p class="est-note" id="estNote"></p>
+              <a class="btn btn-accent" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver ce rendez-vous</span><span data-en>Book this appointment</span> <span class="arr">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="travail">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Réalisations</span><span data-en>The work</span></span>
+            <h2><span data-fr>Des parts nettes, <em>des locs en santé.</em></span><span data-en>Clean parts, <em>healthy locs.</em></span></h2></div>
+          <p class="rv"><span data-fr>Retwist, interlock, entretien crochet, coiffures variées, tout fait dans le salon de LaSalle.</span><span data-en>Retwist, interlock, crochet maintenance, variety styling, all done in the LaSalle studio.</span></p>
+        </div>
+        <div class="gallery" id="gallery">
+          <button class="ph big rv" data-i="0"><img src="assets/w09.jpg" alt="Box-parted locs with two-strand twists" loading="lazy"></button>
+          <button class="ph tall arched rv" data-i="1"><img src="assets/w03.jpg" alt="Barrel-twist locs, outdoors" loading="lazy"></button>
+          <button class="ph rv" data-i="2"><img src="assets/w04.jpg" alt="Retwisted locs with a twisted updo" loading="lazy"></button>
+          <button class="ph rv" data-i="3"><img src="assets/w05.jpg" alt="Box-parted retwist on long locs" loading="lazy"></button>
+          <button class="ph tall rv" data-i="4"><img src="assets/w12.jpg" alt="Fresh retwist, side view" loading="lazy"></button>
+          <button class="ph rv" data-i="5"><img src="assets/w07.jpg" alt="Interlocked parts with a barrel" loading="lazy"></button>
+          <button class="ph rv" data-i="6"><img src="assets/w11.jpg" alt="Retwist with a front swoop" loading="lazy"></button>
+          <button class="ph tall arched rv" data-i="7"><img src="assets/w19.jpg" alt="Red loc extensions" loading="lazy"></button>
+          <button class="ph rv" data-i="8"><img src="assets/w17.jpg" alt="Diamond parts, top view" loading="lazy"></button>
+          <button class="ph rv" data-i="9"><img src="assets/w06.jpg" alt="Petal style updo with gold-toned locs" loading="lazy"></button>
+          <button class="ph rv" data-i="10"><img src="assets/w16.jpg" alt="Wrapped loc bun" loading="lazy"></button>
+          <button class="ph rv" data-i="11"><img src="assets/w10.jpg" alt="Retwist on long locs" loading="lazy"></button>
+        </div>
+        <div class="gal-foot rv">
+          <p><span data-fr>Plus de 100 publications sur Instagram.</span><span data-en>100+ posts on Instagram.</span></p>
+          <a class="btn btn-ink" href="https://www.instagram.com/keydiddat/" target="_blank" rel="noopener noreferrer"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.3 4.2 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.6-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.6-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1C5.3 20 4 18.7 3.9 16c-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1z"/></svg>@keydiddat</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="apropos">
+      <div class="wrap">
+        <div class="about-grid">
+          <figure class="about-ph rv"><img src="assets/key.jpg" alt="Key, loctician behind Key Did Dat" loading="lazy"><figcaption><svg viewBox="{{LOGO_VB}}" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="{{LOGO_D}}"/></svg></figcaption></figure>
+          <div class="about-copy">
+            <span class="tag rv"><span data-fr>À propos</span><span data-en>About me</span></span>
+            <h2 class="rv"><span data-fr>Salut, moi c’est <em>Key.</em></span><span data-en>Hi, I’m <em>Key.</em></span></h2>
+            <p class="lead rv"><span data-fr>Je suis la loctician derrière Key Did Dat, à LaSalle. Dans ma chaise, tout tourne autour de locs en santé, de parts nettes et d’un style qui te fait du bien en sortant.</span><span data-en>I’m the loctician behind Key Did Dat, in LaSalle. In my chair it’s all about healthy locs, clean parts and a style you leave feeling good in.</span></p>
+            <p class="rv"><span data-fr>De tes premières locs à ton retwist, ton interlock, ton entretien crochet ou ton style pour une grande occasion : je prends mon temps et je traite tes locs comme les miennes.</span><span data-en>From your very first starter locs to your retwist, interlock, crochet maintenance or a style for a big day: I take my time and treat your locs like my own.</span></p>
+            <ul class="about-list rv"><li>Retwist</li><li>Interlock</li><li><span data-fr>Entretien crochet</span><span data-en>Crochet maintenance</span></li><li><span data-fr>Départ de locs</span><span data-en>Starter locs</span></li><li><span data-fr>Coiffures variées</span><span data-en>Variety styling</span></li></ul>
+            <div class="hero-cta rv"><a class="btn btn-ink" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Prends place dans ma chaise</span><span data-en>Take a seat in my chair</span> <span class="arr">→</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="entretien" style="padding-top:0">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Entretien</span><span data-en>Care</span></span>
+            <h2><span data-fr>Le bon rythme pour <em>tes locs.</em></span><span data-en>The right rhythm for <em>your locs.</em></span></h2></div>
+          <p class="rv"><span data-fr>Rester dans ton rythme, c’est des racines plus propres, moins de casse et un rendez-vous plus court (et moins cher).</span><span data-en>Staying on rhythm means cleaner roots, less breakage and a shorter (and cheaper) appointment.</span></p>
+        </div>
+        <div class="care">
+          <div class="card rv"><span class="big-n">4–6<i data-fr>semaines</i><i data-en>weeks</i></span><h3>Retwist</h3><p><span data-fr>Le retwist garde tes racines nettes. Reviens aux 4 à 6 semaines.</span><span data-en>A retwist keeps your roots neat. Come back every 4–6 weeks.</span></p><div class="ring"><i style="--w:40%"></i></div></div>
+          <div class="card rv"><span class="big-n">2–3<i data-fr>mois</i><i data-en>months</i></span><h3>Interlock</h3><p><span data-fr>L’interlock tient plus longtemps. Reviens aux 2 à 3 mois.</span><span data-en>Interlocks hold longer. Come back every 2–3 months.</span></p><div class="ring"><i style="--w:72%"></i></div></div>
+          <div class="card rv"><span class="big-n">6+<i data-fr>mois</i><i data-en>months</i></span><h3><span data-fr>Restauration</span><span data-en>Restoration</span></h3><p><span data-fr>Ça fait 6 mois ou plus? Réserve une restauration (50 $ / h) pour repartir du bon pied.</span><span data-en>Been 6 months or more? Book a restoration ($50 / hr) to get back on track.</span></p><div class="ring"><i style="--w:100%"></i></div></div>
+        </div>
+        <ul class="policies rv">
+          <li><span data-fr>Le prix et la durée de maintenance n’incluent pas de style : choisis un extra pour le style voulu.</span><span data-en>Maintenance price and time don’t include a style: pick an add-on for the style you want.</span></li>
+          <li><span data-fr>Un retard sur ton rythme peut entraîner un supplément ou un report du rendez-vous.</span><span data-en>Falling behind your rhythm can mean an upcharge or a rescheduled appointment.</span></li>
+          <li><span data-fr>Le « style seulement » se paie comptant et est réservé aux clientes et clients existants.</span><span data-en>“Style only” is cash only and for existing clients.</span></li>
+          <li><span data-fr>Départ de locs, restauration ou plus de 130 locs : écris-moi sur WhatsApp, sur Instagram (@keydiddat) ou à keydiddatsalon@gmail.com.</span><span data-en>Starter locs, restoration or over 130 locs: message me on WhatsApp, DM @keydiddat or email keydiddatsalon@gmail.com.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pol" id="politiques">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Politiques</span><span data-en>Policies</span></span>
+            <h2><span data-fr>Avant de <em>réserver.</em></span><span data-en>Before you <em>book.</em></span></h2></div>
+          <p class="rv"><span data-fr>En réservant, tu confirmes avoir lu et compris ces politiques. Ne pas les suivre entraîne l’annulation immédiate du rendez-vous.</span><span data-en>By booking your appointment, you confirm you’ve fully read and understood these policies. Not following them will result in immediate cancellation of your appointment.</span></p>
+        </div>
+        <div class="pol-grid">
+          <div class="pol-col rv"><svg class="pol-ic" viewBox="0 0 48 48" aria-hidden="true"><path d="M18 8h12l-3 6h-6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M21 14C12 18 8 26 8 32c0 6 5 9 16 9s16-3 16-9c0-6-4-14-13-18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M28 24c-1-1.6-2.4-2-4-2-2.2 0-3.6 1.2-3.6 2.8 0 4 7.6 2.2 7.6 6.2 0 1.7-1.6 3-4 3-1.8 0-3.2-.6-4.2-2M24 20v2M24 33v2.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><h3><span data-fr>Dépôt</span><span data-en>Deposit</span></h3><ul>
+            <li><span data-fr>Un dépôt de <b>20 $</b> est requis pour réserver.</span><span data-en>A <b>$20 deposit</b> is required to book your appointment.</span></li>
+            <li><span data-fr>Le dépôt est <b>NON REMBOURSABLE</b>.</span><span data-en>The deposit is <b>NON-REFUNDABLE</b>.</span></li>
+            <li><span data-fr>Il peut être transféré <b>UNE seule fois</b>, dans les 30 jours.</span><span data-en>It may be transferred only <b>ONE time</b> within 30 days.</span></li>
+            <li><span data-fr>Le solde se paie le jour du rendez-vous (<b>comptant ou paiement Tap</b>).</span><span data-en>The rest of your balance is paid the day of your appointment (<b>cash or tap</b>).</span></li></ul></div>
+          <div class="pol-col rv"><svg class="pol-ic" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 13v11l7 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><h3><span data-fr>Ponctualité</span><span data-en>Timing</span></h3><ul>
+            <li><span data-fr>Période de grâce de <b>15 minutes</b>. Après 15 minutes, le rendez-vous est annulé, sans exception.</span><span data-en><b>15-minute grace period.</b> After 15 minutes your appointment is cancelled, no exceptions.</span></li>
+            <li><span data-fr><b>24 heures</b> d’avis pour annuler ou déplacer ton rendez-vous.</span><span data-en><b>24 hours’ notice</b> is required to cancel or reschedule.</span></li>
+            <li><span data-fr>Absence sans avis : frais de <b>50 $</b> pour réserver de nouveau.</span><span data-en>No call / no show: <b>$50 rebooking fee</b>.</span></li></ul></div>
+          <div class="pol-col rv"><svg class="pol-ic" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="8" width="28" height="34" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 18l3 3 5-6M16 30l3 3 5-6M28 19h5M28 31h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><h3><span data-fr>Avant d’arriver</span><span data-en>Before you come</span></h3><ul>
+            <li><span data-fr>Retire ton style précédent.</span><span data-en>Remove your previous style.</span></li>
+            <li><span data-fr>Coche tous tes extras en réservant.</span><span data-en>Be sure to check off all your add-ons when you book.</span></li>
+            <li><span data-fr>Pas d’invités supplémentaires.</span><span data-en>No extra guests.</span></li></ul></div>
+        </div>
+        <div class="deposit rv">
+          <div class="dep-amt"><b><span data-fr>20&nbsp;$</span><span data-en>$20</span></b><span data-fr>dépôt non remboursable</span><span data-en>non-refundable deposit</span></div>
+          <dl class="dep-info">
+            <div><dt><span data-fr>Virement Interac à</span><span data-en>e-Transfer to</span></dt><dd><button type="button" class="copy" data-copy="keydiddatsalon@gmail.com">keydiddatsalon@gmail.com <small data-copied><span data-fr>copier</span><span data-en>copy</span></small></button></dd></div>
+            <div><dt>Question</dt><dd>what?</dd></div>
+            <div><dt><span data-fr>Réponse</span><span data-en>Answer</span></dt><dd>hair</dd></div>
+          </dl>
+        </div>
+        <p class="pol-warn rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 1 21h22L12 2zm1 15h-2v-2h2v2zm0-4h-2V9h2v4z"/></svg><span><span data-fr>L’heure du rendez-vous peut être retardée si la cliente précédente arrive en retard pendant sa période de grâce ou à cause d’une erreur de réservation. Aucun remboursement ni rabais ne sera accordé.</span><span data-en>Your appointment time may be delayed if the previous client arrives late during the grace period and/or because of a booking error. We are not responsible for any refunds or discounted services.</span></span></p>
+      </div>
+    </section>
+
+    <section class="survey" id="avis">
+      <div class="wrap">
+        <div class="survey-box rv">
+          <div class="survey-copy">
+            <span class="tag" style="color:var(--hero-muted)"><span data-fr>Ton avis</span><span data-en>Your feedback</span></span>
+            <div class="stars" aria-hidden="true"><svg style="--i:0" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.4 5.8 21.1l1.6-7L2 9.3l7.1-.7z"/></svg><svg style="--i:1" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.4 5.8 21.1l1.6-7L2 9.3l7.1-.7z"/></svg><svg style="--i:2" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.4 5.8 21.1l1.6-7L2 9.3l7.1-.7z"/></svg><svg style="--i:3" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.4 5.8 21.1l1.6-7L2 9.3l7.1-.7z"/></svg><svg style="--i:4" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.4 5.8 21.1l1.6-7L2 9.3l7.1-.7z"/></svg></div>
+            <h2><span data-fr>Tu sors de la chaise? <em>Dis-moi tout.</em></span><span data-en>Just left the chair? <em>Tell me everything.</em></span></h2>
+            <p><span data-fr>Un sondage de 2 minutes sur ton rendez-vous. Sois honnête : ça m’aide à grandir et à ajouter les services que tu veux.</span><span data-en>A 2-minute survey about your appointment. Keep it real: it helps me grow and add the services you want.</span></p>
+            <div class="hero-cta"><a class="btn btn-accent" href="https://coyn-websign.github.io/keydiddat/" target="_blank" rel="noopener noreferrer"><span data-fr>Donner mon avis</span><span data-en>Rate my appointment</span> <span class="arr">→</span></a></div>
+          </div>
+          <div class="survey-ph"><img src="assets/w01.jpg" alt="" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="social" id="reseaux">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Réseaux</span><span data-en>Socials</span></span>
+            <h2><span data-fr>Le travail, <em>en mouvement.</em></span><span data-en>The work, <em>in motion.</em></span></h2></div>
+          <p class="rv"><span data-fr>Les derniers reels de Key. Touche le haut-parleur pour le son.</span><span data-en>Key’s latest reels. Tap the speaker for sound.</span></p>
+        </div>
+        <div class="reels">
+          <figure class="reel tt rv">
+            <div class="reel-frame"><video data-reel muted loop playsinline preload="none" poster="assets/tiktok.jpg" src="assets/tiktok.mp4"></video>
+              <button type="button" class="reel-snd" data-snd aria-label="Son / Sound"><svg class="snd" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9v6h4l5 4V5L8 9H4z"/><path class="w" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="x" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+            <figcaption><span class="reel-badge"><svg class="rb-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>TikTok</span><a href="https://www.tiktok.com/@keydiddat/video/7617641795857632519" target="_blank" rel="noopener noreferrer"><span data-fr>Voir sur TikTok</span><span data-en>Watch on TikTok</span> →</a></figcaption>
+          </figure>
+          <figure class="reel ig rv">
+            <div class="reel-frame ig-frame"><iframe title="Instagram reel by @keydiddat" loading="lazy" src="https://www.instagram.com/reel/DfYKaEch75T/embed/" scrolling="no" allowtransparency="true" allow="encrypted-media; autoplay"></iframe></div>
+            <figcaption><span class="reel-badge"><svg class="rb-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.3 4.2 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.6-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.6-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1C5.3 20 4 18.7 3.9 16c-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1z"/></svg>Instagram</span><a href="https://www.instagram.com/reel/DfYKaEch75T/" target="_blank" rel="noopener noreferrer"><span data-fr>Voir sur Instagram</span><span data-en>Watch on Instagram</span> →</a></figcaption>
+          </figure>
+          <figure class="reel fb rv">
+            <div class="reel-frame"><video data-reel muted loop playsinline preload="none" poster="assets/facebook.jpg" src="assets/facebook.mp4"></video>
+              <button type="button" class="reel-snd" data-snd aria-label="Son / Sound"><svg class="snd" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9v6h4l5 4V5L8 9H4z"/><path class="w" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="x" d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+            <figcaption><span class="reel-badge"><svg class="rb-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>Facebook</span><a href="https://www.facebook.com/share/r/19ppupDa73/" target="_blank" rel="noopener noreferrer"><span data-fr>Voir sur Facebook</span><span data-en>Watch on Facebook</span> →</a></figcaption>
+          </figure>
+        </div>
+        <div class="soc-row rv">
+          <span class="soc-lab"><span data-fr>Suis Key</span><span data-en>Follow Key</span></span>
+          <a class="sl ig" href="https://www.instagram.com/keydiddat/" target="_blank" rel="noopener noreferrer"><svg class="sl-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.3 4.2 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.6-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.6-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1C5.3 20 4 18.7 3.9 16c-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1z"/></svg><span>@keydiddat</span></a>
+          <a class="sl tt" href="https://www.tiktok.com/@keydiddat" target="_blank" rel="noopener noreferrer"><svg class="sl-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg><span>@keydiddat</span></a>
+          <a class="sl fb" href="https://www.facebook.com/share/1Be9oTjCaL/" target="_blank" rel="noopener noreferrer"><svg class="sl-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg><span>Key Did Dat</span></a>
+          <a class="sl wa" data-wa href="#" target="_blank" rel="noopener noreferrer"><svg class="sl-ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg><span data-wa-text>WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="visite">
+      <div class="wrap">
+        <div class="head">
+          <div class="rv"><span class="tag"><span data-fr>Visite</span><span data-en>Visit</span></span>
+            <h2><span data-fr>Viens t’asseoir <em>à LaSalle.</em></span><span data-en>Come take a seat <em>in LaSalle.</em></span></h2></div>
+          <p class="rv"><span data-fr>Tout se réserve en ligne. Pour une question, WhatsApp est le plus rapide.</span><span data-en>Everything books online. Questions? WhatsApp is the fastest way to reach me.</span></p>
+        </div>
+        <div class="visit">
+          <div class="rv">
+            <div class="info">
+              <div class="it it-wa" data-wa-row><span class="k">WhatsApp</span><span class="v"><a data-wa href="#" target="_blank" rel="noopener noreferrer" data-wa-text>WhatsApp</a><small><span data-fr>Le meilleur moyen de me joindre</span><span data-en>The best way to reach me</span></small></span></div>
+              <div class="it"><span class="k"><span data-fr>Adresse</span><span data-en>Address</span></span><span class="v"><a href="https://maps.google.com/?q=2480+rue+Lapierre,+LaSalle,+QC" target="_blank" rel="noopener noreferrer">2480 rue Lapierre</a><small>LaSalle, Montréal (QC)</small></span></div>
+              <div class="it"><span class="k"><span data-fr>Heures</span><span data-en>Hours</span></span><span class="v"><span data-fr>Mardi au samedi</span><span data-en>Tuesday to Saturday</span><small><span data-fr>Sur rendez-vous seulement</span><span data-en>By appointment only</span></small><span class="now" id="now"><i></i><span data-now></span></span></span></div>
+              <div class="it"><span class="k"><span data-fr>Réserver</span><span data-en>Book</span></span><span class="v"><a data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer">keydiddat.as.me</a><small><span data-fr>Réservation en ligne 24/7</span><span data-en>Online booking 24/7</span></small></span></div>
+              <div class="it"><span class="k">Instagram</span><span class="v"><a href="https://www.instagram.com/keydiddat/" target="_blank" rel="noopener noreferrer">@keydiddat</a><small><span data-fr>Pour les questions et les départs de locs</span><span data-en>For questions and starter locs</span></small></span></div>
+              <div class="it"><span class="k"><span data-fr>Courriel</span><span data-en>Email</span></span><span class="v"><a href="mailto:keydiddatsalon@gmail.com">keydiddatsalon@gmail.com</a></span></div>
+            </div>
+            <div class="visit-cta">
+              <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener noreferrer"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg><span data-fr>Écrire sur WhatsApp</span><span data-en>Message on WhatsApp</span></a>
+              <a class="btn btn-ink" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver maintenant</span><span data-en>Book now</span> <span class="arr">→</span></a>
+              <a class="btn" style="border-color:var(--line)" href="https://maps.google.com/?q=2480+rue+Lapierre,+LaSalle,+QC" target="_blank" rel="noopener noreferrer"><span data-fr>Itinéraire</span><span data-en>Directions</span></a>
+            </div>
+          </div>
+          <div class="map rv"><iframe title="Map: 2480 rue Lapierre, LaSalle" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=2480%20rue%20Lapierre%2C%20LaSalle%2C%20QC&amp;z=15&amp;output=embed"></iframe></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-big">
+      <svg aria-label="Key Did Dat" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="{{LOGO_VB}}"><path fill="currentColor" fill-rule="evenodd" d="{{LOGO_D}}"/></svg>
+      <a class="btn btn-accent" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserve ton prochain rendez-vous</span><span data-en>Book your next appointment</span> <span class="arr">→</span></a>
+    </div>
+    <div class="foot-row">
+      <span>© <span id="yr">2026</span> Key Did Dat · LaSalle, Montréal</span>
+      <span class="foot-soc"><a href="https://www.instagram.com/keydiddat/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.3 4.2 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.6-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.6-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1C5.3 20 4 18.7 3.9 16c-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1z"/></svg></a><a href="https://www.tiktok.com/@keydiddat" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a><a href="https://www.facebook.com/share/1Be9oTjCaL/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a><a data-wa href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a></span>
+      <details class="law"><summary><span data-fr>Confidentialité (Loi 25)</span><span data-en>Privacy (Law 25)</span></summary><p><span data-fr>Ce site ne collecte aucune donnée personnelle. Les réservations passent par Acuity Scheduling, le sondage par Fadeback; leurs politiques s’appliquent. Questions : keydiddatsalon@gmail.com.</span><span data-en>This site doesn’t collect personal data. Bookings go through Acuity Scheduling and the survey through Fadeback; their policies apply. Questions: keydiddatsalon@gmail.com.</span></p></details>
+      <span><span data-fr>Site par</span><span data-en>Site by</span> WeUnfolded Web</span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar"><a class="btn btn-accent" data-book href="https://keydiddat.as.me/" target="_blank" rel="noopener noreferrer"><span data-fr>Réserver</span><span data-en>Book now</span></a><a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener noreferrer"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>WhatsApp</a><a class="btn btn-line" data-wa-fallback href="https://www.instagram.com/keydiddat/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+
+<dialog class="lb" id="lb"><img id="lbImg" alt=""><div class="lb-bar"><button type="button" data-lb="-1" aria-label="Previous">←</button><button type="button" data-lb="x" aria-label="Close">✕</button><button type="button" data-lb="1" aria-label="Next">→</button></div></dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" integrity="sha384-B2WBjDzEjJpYvhmi2UyEn7rektqkf5suS6sNoyyrf0EBAwBHdkiXxIlU0V5Ru2ed" crossorigin="anonymous"></script>
+<script>
+(function(){
+  var root=document.documentElement;
+  function setLang(l){
+    root.lang=l;
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l)});
+    document.querySelectorAll('option[data-en]').forEach(function(o){o.textContent=o.dataset[l]});
+    setVibe(root.dataset.vibe);
+    window.dispatchEvent(new Event('langchange'));
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang)})});
+  var VIBES=[
+    {id:'emeraude',fr:'Émeraude',en:'Emerald',a:'#0d2620',b:'#d6b36a'},
+    {id:'moka',fr:'Moka',en:'Mocha',a:'#1e1410',b:'#d3a467'},
+    {id:'nuit',fr:'Nuit dorée',en:'Black gold',a:'#0b0b0a',b:'#e2bf6e'}
+  ];
+  document.querySelectorAll('[data-vibes]').forEach(function(g){
+    var label=g.querySelector('[data-vibe-label]');
+    VIBES.forEach(function(v){
+      var b=document.createElement('button');b.type='button';b.dataset.vibe=v.id;
+      b.style.setProperty('--a',v.a);b.style.setProperty('--b',v.b);
+      b.setAttribute('aria-label',v.en+' / '+v.fr);b.title=v.en+' / '+v.fr;
+      b.addEventListener('click',function(){setVibe(v.id)});
+      g.insertBefore(b,label);
+    });
+  });
+  function setVibe(id){
+    var v=VIBES.filter(function(x){return x.id===id})[0]||VIBES[0];
+    root.dataset.vibe=v.id;
+    document.querySelectorAll('[data-vibes] button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.vibe===v.id)});
+    document.querySelectorAll('[data-vibe-label]').forEach(function(s){s.textContent=root.lang==='fr'?v.fr:v.en});
+    var tc=document.querySelector('meta[name=theme-color]');if(tc)tc.content=v.a;
+    try{localStorage.setItem('kdd-vibe',v.id)}catch(e){}
+    window.dispatchEvent(new Event('vibechange'));
+  }
+  window.__setVibe=setVibe;
+  var saved=null;try{saved=localStorage.getItem('kdd-vibe')}catch(e){}
+  var hm=/^#(fr|en)(?:-(emeraude|moka|nuit))?$/.exec(location.hash);
+  if(hm&&hm[2])saved=hm[2];
+  setVibe(saved||'emeraude');
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // gate
+  var gate=document.getElementById('gate');
+  if(hm){setLang(hm[1]);gate.hidden=true}else{setLang('en');document.body.style.overflow='hidden'}
+  gate.querySelectorAll('[data-pick]').forEach(function(b){
+    b.addEventListener('click',function(){
+      setLang(b.dataset.pick);
+      gate.classList.add('closed');document.body.style.overflow='';
+      window.dispatchEvent(new Event('gateopening'));
+      setTimeout(function(){gate.hidden=true},900);
+    });
+  });
+
+  // nav + smooth scroll
+  var nav=document.getElementById('nav');
+  function onScroll(){nav.classList.toggle('solid',window.scrollY>40)}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,lenis=null;
+  if(window.Lenis&&!reduce){
+    lenis=new Lenis({duration:1.35,easing:function(t){return Math.min(1,1.001-Math.pow(2,-10*t))},smoothWheel:true,wheelMultiplier:.9});
+    (function raf(t){lenis.raf(t);requestAnimationFrame(raf)})(performance.now());
+    if(!gate.hidden)lenis.stop();
+    window.addEventListener('gateopening',function(){lenis.start()});
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click',function(e){
+        var id=a.getAttribute('href');var el=id==='#top'?0:document.querySelector(id);
+        if(el===null)return;e.preventDefault();lenis.scrollTo(el,{offset:id==='#top'?0:-78,duration:1.6});
+      });
+    });
+  }
+  var hero=document.querySelector('.hero');
+  function heroProgress(){var p=Math.min(1,Math.max(0,window.scrollY/(hero.offsetHeight||1)));hero.style.setProperty('--p',p.toFixed(3));window.__heroCovered=p>=1}
+  window.addEventListener('scroll',heroProgress,{passive:true});heroProgress();
+  ['.facts .wrap','.care','.gallery','.pol-grid','.reels','.soc-row'].forEach(function(sel){
+    var g=document.querySelector(sel);if(!g)return;
+    Array.prototype.forEach.call(g.children,function(c,i){c.style.setProperty('--i',i%6)});
+  });
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  }else{document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')})}
+
+  // menu tabs
+  var tabs=document.querySelectorAll('[data-tab]');
+  tabs.forEach(function(t){t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected',x===t)});
+    document.querySelectorAll('[data-panel]').forEach(function(p){p.hidden=p.dataset.panel!==t.dataset.tab});
+  })});
+
+  // lightbox
+  var shots=Array.prototype.slice.call(document.querySelectorAll('#gallery .ph')),lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg'),cur=0;
+  function show(i){cur=(i+shots.length)%shots.length;var im=shots[cur].querySelector('img');lbImg.src=im.src;lbImg.alt=im.alt}
+  shots.forEach(function(s,i){s.addEventListener('click',function(){if(!lb.showModal)return;show(i);lb.showModal();if(lenis)lenis.stop()})});
+  lb.addEventListener('close',function(){if(lenis)lenis.start()});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+  lb.querySelectorAll('[data-lb]').forEach(function(b){b.addEventListener('click',function(){var v=b.dataset.lb;if(v==='x')lb.close();else show(cur+(+v))})});
+  document.addEventListener('keydown',function(e){if(!lb.open)return;if(e.key==='ArrowRight')show(cur+1);if(e.key==='ArrowLeft')show(cur-1)});
+
+
+  // WhatsApp first: number lives in <html data-whatsapp>
+  var wa=(root.dataset.whatsapp||'').replace(/\D/g,'');if(wa.length===10)wa='1'+wa;
+  if(wa.length>=11){
+    var pretty=wa.length===11?'+1 ('+wa.slice(1,4)+') '+wa.slice(4,7)+'-'+wa.slice(7):'+'+wa;
+    var hello=function(){return encodeURIComponent(root.lang==='fr'?'Salut Key! J’ai une question au sujet de mes locs.':'Hi Key! I have a question about my locs.')};
+    var setWa=function(){document.querySelectorAll('[data-wa]').forEach(function(a){a.href='https://wa.me/'+wa+'?text='+hello()})};
+    setWa();window.addEventListener('langchange',setWa);
+    document.querySelectorAll('[data-wa-text]').forEach(function(s){s.textContent=pretty});
+    document.querySelectorAll('[data-wa-fallback]').forEach(function(a){a.hidden=true});
+  }else{
+    document.querySelectorAll('[data-wa],[data-wa-row]').forEach(function(a){a.hidden=true});
+  }
+
+  // reels: play while on screen, tap the speaker for sound
+  var reels=document.querySelectorAll('[data-reel]');
+  if('IntersectionObserver' in window){
+    var rio=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){v.preload='auto';var pr=v.play();if(pr&&pr.catch)pr.catch(function(){})}else v.pause()})},{threshold:.35});
+    reels.forEach(function(v){rio.observe(v)});
+  }
+  document.querySelectorAll('[data-snd]').forEach(function(b){b.addEventListener('click',function(){
+    var v=b.parentNode.querySelector('video'),on=v.muted;
+    reels.forEach(function(o){o.muted=true});document.querySelectorAll('[data-snd]').forEach(function(x){x.classList.remove('on')});
+    v.muted=!on;if(on){b.classList.add('on');v.play()}
+  })});
+  // copy the e-Transfer email
+  document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+    var t=b.dataset.copy,lab=b.querySelector('[data-copied]'),old=lab.innerHTML;
+    (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){lab.textContent=root.lang==='fr'?'copié ✓':'copied ✓';setTimeout(function(){lab.innerHTML=old},1800)},function(){location.href='mailto:'+t});
+  })});
+  // open / closed (Tue–Sat, Montréal time; exact hours aren't public, so we only say the day)
+  function now(){
+    var en=root.lang!=='fr',p={};
+    try{new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',weekday:'short'}).formatToParts(new Date()).forEach(function(x){p[x.type]=x.value})}catch(e){return}
+    var open=['Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday)>=0,el=document.getElementById('now');
+    el.classList.toggle('open',open);
+    el.querySelector('[data-now]').textContent=open?(en?'Booking today':'Rendez-vous aujourd’hui'):(en?'Closed today · book for Tuesday':'Fermé aujourd’hui · réserve pour mardi');
+  }
+  now();window.addEventListener('langchange',now);
+})();
+</script>
+
+<script>
+/* ---------- Signature: count your locs (prices from keydiddat.as.me) ---------- */
+(function(){
+  var root=document.documentElement,cv=document.getElementById('scalp'),ctx=cv.getContext('2d');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var S={method:'retwist',locs:70,growth:'ok'};
+  var BASE={retwist:[75,85,95],interlock:[80,90,100]},DUR=[90,120,150];
+  var STY={none:[0,0],barrels:[5,10],twists:[10,15],boho:[20,30],special:[25,30],xcorn:[45,25],xjumbo:[80,60],xtwist:[100,90],xsingle:[115,150]};
+  var range=document.getElementById('locs'),out=document.getElementById('locsOut'),styleSel=document.getElementById('style');
+  var detox=document.getElementById('detox'),wash=document.getElementById('wash');
+  function fr(){return root.lang==='fr'}
+  function money(n){return fr()?n+' $':'$'+n}
+  function hm(m){var h=Math.floor(m/60),r=m%60;return h+' h'+(r?' '+(r<10?'0':'')+r:'')}
+  function calc(){
+    var L=[],t=0,d=0,note='',quote=false,F=fr();
+    if(S.growth==='long'){
+      L.push([F?'Restauration (50 $ / h, ≈ 4 h)':'Restoration ($50 / hr, about 4 h)',200]);t=200;d=240;
+      note=F?'Après 6 mois sans entretien, on passe en restauration. Le prix final dépend du temps.':'After 6+ months without maintenance it becomes a restoration. Final price depends on time.';
+    }else if(S.locs>130){
+      quote=true;note=F?'Plus de 130 locs : écris à @keydiddat ou keydiddatsalon@gmail.com pour un prix.':'Over 130 locs: DM @keydiddat or email keydiddatsalon@gmail.com for a price.';
+    }else{
+      var tier=S.locs<=50?0:S.locs<=100?1:2,lab=['≤ 50','51–100','101–130'][tier];
+      t=BASE[S.method][tier];d=DUR[tier];
+      L.push([(S.method==='retwist'?'Retwist':'Interlock')+' · '+lab+' locs',t]);
+      if(S.growth==='mid'){L.push([F?'Repousse 3 à 6 mois':'3–6 months new growth',5]);t+=5;d+=15}
+      note=F?'Estimation selon les prix de réservation de Key. Le prix final se confirme dans la chaise.':'Estimate from Key’s booking prices. Final price is confirmed in the chair.';
+    }
+    var s=STY[styleSel.value];
+    if(s[0]&&!quote){L.push([styleSel.options[styleSel.selectedIndex].textContent.replace(/\s*\(.*\)$/,''),s[0]]);t+=s[0];d+=s[1]}
+    if(detox.checked&&!quote){L.push([F?'Détox':'Detox',40]);t+=40;d+=75}
+    if(wash.checked&&!quote){L.push([F?'Lavage':'Hair wash',20]);t+=20;d+=60}
+    document.getElementById('amt').innerHTML=quote?'<small>'+(F?'sur':'on')+'</small>'+(F?'devis':'request'):money(t);
+    document.getElementById('dur').textContent=quote?'—':'≈ '+hm(d);
+    document.getElementById('lines').innerHTML=L.map(function(x){return '<li><span>'+x[0]+'</span><span>'+money(x[1])+'</span></li>'}).join('');
+    document.getElementById('estNote').textContent=note;
+  }
+  document.querySelectorAll('[data-seg]').forEach(function(g){
+    g.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){
+      g.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+      S[g.dataset.seg]=b.dataset.v;calc();layout();
+    })});
+  });
+  function setRange(){
+    S.locs=+range.value;out.textContent=S.locs;document.getElementById('cnt').textContent=S.locs;
+    range.style.setProperty('--fill',((S.locs-20)/140*100)+'%');calc();layout();
+  }
+  range.addEventListener('input',setRange);
+  [styleSel,detox,wash].forEach(function(el){el.addEventListener('change',calc)});
+  window.addEventListener('langchange',calc);
+
+  /* ---- the scalp: brick-grid parts inside a top-view head, one loc per cell ---- */
+  var W=0,cells=[],born=new Map(),dpr=Math.min(devicePixelRatio||1,2);
+  function css(n){return getComputedStyle(root).getPropertyValue(n).trim()}
+  function size(){var r=cv.getBoundingClientRect();W=r.width;cv.width=W*dpr;cv.height=W*dpr;layout()}
+  function grid(s,cx,cy,rx,ry){
+    var c=[],rows=Math.ceil(2*ry/s)+2,cols=Math.ceil(2*rx/s)+2;
+    for(var r=0;r<rows;r++)for(var k=0;k<cols;k++){
+      var x=cx-rx-s+k*s+(r%2?s/2:0)+s/2,y=cy-ry-s+r*s+s/2;
+      var dx=(x-cx)/(rx-s*.35),dy=(y-cy)/(ry-s*.35);
+      if(dx*dx+dy*dy<=1)c.push({x:x,y:y,s:s,key:r+':'+k+':'+s.toFixed(1)});
+    }
+    return c;
+  }
+  function layout(){
+    if(!W)return;
+    var cx=W/2,cy=W*.47,rx=W*.33,ry=W*.41,lo=4,hi=W,n=Math.min(S.locs,160),best=null;
+    for(var i=0;i<22;i++){var s=(lo+hi)/2,g=grid(s,cx,cy,rx,ry);if(g.length>n)lo=s;else hi=s;if(!best||Math.abs(g.length-n)<Math.abs(best.length-n))best=g}
+    cells=best.sort(function(a,b){return a.y-b.y||a.x-b.x});
+    var t=performance.now();
+    cells.forEach(function(c,i){c.t0=reduce?0:t+i*(900/cells.length)});
+    if(!raf)raf=requestAnimationFrame(draw);
+  }
+  var raf=0;
+  function draw(now){
+    raf=0;
+    var g=ctx,cx=W/2,cy=W*.47,rx=W*.33,ry=W*.41,gold=css('--accent'),hair=css('--hair'),skin=css('--skin'),bg=css('--hero');
+    g.setTransform(dpr,0,0,dpr,0,0);g.clearRect(0,0,W,W);
+    // soft glow + shoulders hint
+    var gl=g.createRadialGradient(cx,cy,ry*.2,cx,cy,ry*1.35);gl.addColorStop(0,'rgba(214,179,106,.16)');gl.addColorStop(1,'rgba(0,0,0,0)');g.fillStyle=gl;g.fillRect(0,0,W,W);
+    // ears
+    g.fillStyle=skin;[-1,1].forEach(function(sd){g.beginPath();g.ellipse(cx+sd*rx*1.02,cy+ry*.18,rx*.1,ry*.15,0,0,7);g.fill()});
+    // scalp
+    var sg=g.createRadialGradient(cx-rx*.3,cy-ry*.4,ry*.1,cx,cy,ry*1.1);sg.addColorStop(0,'#8a5c40');sg.addColorStop(1,skin);
+    g.fillStyle=sg;g.beginPath();g.ellipse(cx,cy,rx,ry,0,0,7);g.fill();
+    // forehead edge hint
+    g.strokeStyle='rgba(0,0,0,.25)';g.lineWidth=1;g.beginPath();g.ellipse(cx,cy,rx,ry,0,0,7);g.stroke();
+    var busy=false;
+    g.save();g.beginPath();g.ellipse(cx,cy,rx,ry,0,0,7);g.clip();
+    // gold part lines: rounded cell outlines
+    cells.forEach(function(c){
+      var k=Math.min(1,Math.max(0,(now-c.t0)/500));if(k<1)busy=true;
+      var e=1-Math.pow(1-k,3),h=c.s/2-1;
+      g.globalAlpha=e*.9;g.strokeStyle=gold;g.lineWidth=Math.max(.8,c.s*.035);
+      g.beginPath();if(g.roundRect)g.roundRect(c.x-h,c.y-h,h*2,h*2,c.s*.18);else g.rect(c.x-h,c.y-h,h*2,h*2);g.stroke();
+    });
+    // locs: a dark root per cell with a twist (retwist) or a cross-stitch (interlock)
+    cells.forEach(function(c){
+      var k=Math.min(1,Math.max(0,(now-c.t0-120)/520)),e=k<1?1-Math.pow(1-k,3):1,r=c.s*.3*(.2+.8*e);
+      if(k<=0)return;
+      g.globalAlpha=1;
+      var lg=g.createRadialGradient(c.x-r*.35,c.y-r*.4,r*.1,c.x,c.y,r);lg.addColorStop(0,'#3b2a20');lg.addColorStop(1,hair);
+      g.fillStyle=lg;g.beginPath();g.arc(c.x,c.y,r,0,7);g.fill();
+      g.strokeStyle='rgba(255,230,190,.28)';g.lineWidth=Math.max(.7,r*.12);
+      if(S.method==='retwist'){g.beginPath();for(var a=0;a<9.5;a+=.35){var rr=r*.85*(a/9.5);g.lineTo(c.x+Math.cos(a)*rr,c.y+Math.sin(a)*rr)}g.stroke()}
+      else{g.beginPath();g.moveTo(c.x-r*.55,c.y-r*.55);g.lineTo(c.x+r*.55,c.y+r*.55);g.moveTo(c.x+r*.55,c.y-r*.55);g.lineTo(c.x-r*.55,c.y+r*.55);g.stroke();
+        g.beginPath();g.arc(c.x,c.y,r*.5,0,7);g.stroke()}
+    });
+    g.restore();g.globalAlpha=1;
+    // "front" marker
+    g.fillStyle=css('--hero-muted');g.font='500 '+Math.round(W*.022)+'px "DM Mono", monospace';g.textAlign='center';
+    g.fillText(fr()?'AVANT':'FRONT',cx,cy-ry-W*.025);
+    if(busy)raf=requestAnimationFrame(draw);
+  }
+  function redraw(){if(!raf)raf=requestAnimationFrame(draw)}
+  window.addEventListener('vibechange',redraw);window.addEventListener('langchange',redraw);
+  new ResizeObserver(size).observe(cv);
+  setRange();
+})();
+</script>
+
+<script>
+/* ---------- gold dust drifting up through the hero ---------- */
+(function(){
+  var cv=document.getElementById('dust');if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var g=cv.getContext('2d'),P=[],W,H,dpr=Math.min(devicePixelRatio||1,2),gold='#d6b36a';
+  function size(){W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr}
+  function css(){gold=getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()}
+  size();css();addEventListener('resize',size);addEventListener('vibechange',css);
+  for(var i=0;i<(W<700?34:70);i++)P.push({x:Math.random(),y:Math.random(),r:.6+Math.random()*1.8,v:.00012+Math.random()*.0004,ph:Math.random()*6.3,w:.3+Math.random()*.7});
+  (function loop(t){
+    requestAnimationFrame(loop);
+    if(window.__heroCovered)return;
+    g.setTransform(dpr,0,0,dpr,0,0);g.clearRect(0,0,W,H);g.fillStyle=gold;
+    P.forEach(function(p){p.y-=p.v;if(p.y<-.02){p.y=1.02;p.x=Math.random()}
+      var a=(.25+.75*Math.abs(Math.sin(t*.001*p.w+p.ph)))*.7;g.globalAlpha=a;
+      g.beginPath();g.arc(p.x*W+Math.sin(t*.0004+p.ph)*14,p.y*H,p.r,0,7);g.fill()});
+  })(0);
+})();
+</script>
+
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+<script type="module">
+/* ---------- gate: her script logo, extruded in gold, drag to spin ---------- */
+import * as THREE from 'three';
+import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+const root = document.documentElement;
+const css = (n) => getComputedStyle(root).getPropertyValue(n).trim();
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const phone = matchMedia('(max-width: 900px), (pointer: coarse)').matches;
+(function logo(){
+  const gate = document.getElementById('gate');
+  if (gate.hidden) return;
+  const wrap = document.getElementById('logo3d');
+  const canvas = document.getElementById('logoCanvas');
+  const MARK = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="{{LOGO_VB}}"><path fill="#000" fill-rule="evenodd" d="{{LOGO_D}}"/></svg>`;
+  let renderer;
+  try { renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true }); } catch (e) { return; }
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  const scene = new THREE.Scene();
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  scene.environment = pmrem.fromScene(new RoomEnvironment(renderer), 0.04).texture;
+  const camera = new THREE.PerspectiveCamera(26, 1, 10, 60000);
+  const shapes = [];
+  new SVGLoader().parse(MARK).paths.forEach((p) => SVGLoader.createShapes(p).forEach((s) => shapes.push(s)));
+  const geo = new THREE.ExtrudeGeometry(shapes, { depth: 70, curveSegments: phone ? 6 : 12, bevelEnabled: true, bevelThickness: 10, bevelSize: 4, bevelSegments: phone ? 2 : 4 });
+  geo.center(); geo.computeBoundingBox();
+  const width = geo.boundingBox.max.x - geo.boundingBox.min.x;
+  const mat = new THREE.MeshPhysicalMaterial({ metalness: 0.92, roughness: 0.26, clearcoat: 0.6, clearcoatRoughness: 0.2, envMapIntensity: 1.25 });
+  const mesh = new THREE.Mesh(geo, mat); mesh.rotation.x = Math.PI;
+  const group = new THREE.Group(); group.add(mesh); scene.add(group);
+  const key = new THREE.DirectionalLight(0xfff1d6, 2.4); key.position.set(0, 0, 4000); scene.add(key);
+  scene.add(new THREE.AmbientLight(0xffffff, 0.25));
+  const applyVibe = () => mat.color = new THREE.Color(css('--accent'));
+  applyVibe(); addEventListener('vibechange', applyVibe);
+  const fit = () => {
+    const w = canvas.clientWidth, h = canvas.clientHeight; if (!w || !h) return;
+    renderer.setSize(w, h, false); camera.aspect = w / h;
+    const hfov = 2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2) * camera.aspect);
+    camera.position.set(0, 0, (width / 0.70) / 2 / Math.tan(hfov / 2));
+    camera.near = camera.position.z / 20; camera.far = camera.position.z * 4; camera.updateProjectionMatrix();
+  };
+  new ResizeObserver(fit).observe(canvas); fit();
+  const ptr = { x: 0, y: 0 }; let drag = null, spin = 0, vel = 0, tiltX = 0;
+  const onMove = (e) => {
+    ptr.x = e.clientX / innerWidth * 2 - 1; ptr.y = e.clientY / innerHeight * 2 - 1;
+    if (drag) { const dx = e.clientX - drag.x; vel = dx * 0.01; spin += vel; tiltX = Math.max(-0.6, Math.min(0.6, tiltX + (e.clientY - drag.y) * 0.006)); drag.x = e.clientX; drag.y = e.clientY; }
+  };
+  wrap.addEventListener('pointerdown', (e) => { drag = { x: e.clientX, y: e.clientY }; wrap.setPointerCapture(e.pointerId); });
+  const end = () => { drag = null; };
+  wrap.addEventListener('pointerup', end); wrap.addEventListener('pointercancel', end);
+  addEventListener('pointermove', onMove, { passive: true });
+  const t0 = performance.now(); let shown = false;
+  const ease = (k) => 1 - Math.pow(1 - k, 3);
+  renderer.setAnimationLoop((now) => {
+    if (gate.hidden) { renderer.setAnimationLoop(null); removeEventListener('pointermove', onMove); geo.dispose(); mat.dispose(); pmrem.dispose(); renderer.dispose(); return; }
+    const t = (now - t0) / 1000, intro = reduce ? 1 : ease(Math.min(t / 1.8, 1));
+    if (!drag) { vel *= 0.95; spin += vel; spin *= 0.985; tiltX *= 0.96; }
+    const f = reduce ? 0 : 1;
+    group.rotation.y = spin + ptr.x * 0.35 + Math.cos(t * 0.6) * 0.1 * f - (1 - intro) * 1.2;
+    group.rotation.x = tiltX + ptr.y * 0.25 + Math.sin(t * 0.8) * 0.05 * f + 0.06;
+    group.position.y = Math.sin(t * 1.1) * width * 0.004 * f;
+    group.scale.setScalar(0.86 + 0.14 * intro);
+    key.position.set(ptr.x * 3000, -ptr.y * 2000 + 800, 4000);
+    renderer.render(scene, camera);
+    if (!shown) { shown = true; wrap.classList.add('webgl'); }
+  });
+})();
+</script>
+</body>
+</html>

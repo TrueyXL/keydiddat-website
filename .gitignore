@@ -1,0 +1,5 @@
+*.heic
+*.HEIC
+src/
+page-before-*.html
+.DS_Store
